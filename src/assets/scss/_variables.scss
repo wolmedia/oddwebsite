@@ -1,0 +1,23 @@
+
+*body{
+    background-color: #0d0d0d;
+}
+
+@font-face {
+    font-family: font_title;
+    src: url(../font/Northlane-One.otf);
+  }
+
+  @font-face {
+    font-family: font_title_v2;
+    src: url(../font/Northlane-Two.otf);
+  }
+
+  @font-face {
+    font-family: font_body;
+    src: url(../font/Barlow_Plain.ttf);
+  }
+
+  
+$odd_ColorPrimary: #0d0d0d;
+$odd_TextColorPrimary : #fefefe;

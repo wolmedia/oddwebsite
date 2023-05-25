@@ -1,0 +1,78 @@
+.carousel {
+
+
+  Button{
+    position: relative;
+    width: 240px;
+    height: 70px;
+    margin: 0 10px;
+    border: 5px solid transparent;
+  }
+
+.btn_primary{
+  font-family: font_body;
+
+  border-radius: 90px;
+  background: #000;
+  background-clip: padding-box;
+}
+.btn_primary:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -2px;
+    border-radius: 90px;
+    background: linear-gradient(to right, #F58BFC, #92E8FA);
+  }
+
+
+
+img {
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  
+
+  h1{
+    font-size: 40px;
+  }
+
+  video{
+    width: 100vw;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+
+  p{
+   font-size: 1.2em;
+   letter-spacing: 20px;
+   font-family: font_body;
+   text-transform: uppercase;
+
+  }
+
+  .title_odd{
+   letter-spacing: 10px;
+   font-family: font_title;
+   color: $odd_TextColorPrimary;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
+  
+  .thumbs-wrapper{
+    display: none;
+
+  }
+
+  .carousel-status{
+    display: none;
+    
+  }
+
+}
