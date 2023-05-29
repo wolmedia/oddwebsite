@@ -1,14 +1,20 @@
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Tagging from '../../assets/img/figure/tagging_white.png'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Tagging from '../../assets/img/figure/tagging_white.png';
+
+
+
 
 function Experiencia (){
     return(
 
         <Container fluid className='section_experiencia bg_experiencia'>
         <Row className='taggin'>
+       
         <img src ={Tagging} alt="Logo"/>
+
+       
          </Row> 
        <Row>
          <Col>
