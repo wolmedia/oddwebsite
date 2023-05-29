@@ -6,7 +6,7 @@ import Tagging from '../../assets/img/figure/tagging_white.png'
 function Experiencia (){
     return(
 
-        <Container fluid className='section_experiencia'>
+        <Container fluid className='section_experiencia bg_experiencia'>
         <Row className='taggin'>
         <img src ={Tagging} alt="Logo"/>
          </Row> 
