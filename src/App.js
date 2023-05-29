@@ -7,6 +7,7 @@ import Slide from './components/home/slide';
 import Enfoque from './components/home/seccion_enfoque';
 import Btnodd from './components/_btnodd';
 import Experiencia from './components/home/experiencia';
+import  Card from './components/sectionexperiencia/card';
 // import Navbarodd from './components/navbar/navbar'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Enfoque />
     <Btnodd />
     <Experiencia />
+    <Card />
 
 
     
