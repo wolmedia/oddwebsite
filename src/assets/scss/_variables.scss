@@ -20,6 +20,11 @@
     src: url(../font/Barlow_Plain.ttf);
   }
 
+  @font-face {
+    font-family: font_body_bold;
+    src: url(../font/Barlow_Bold.ttf);
+  }
+
   
 $odd_ColorPrimary: #0d0d0d;
 $odd_TextColorPrimary : #fefefe;

@@ -1,4 +1,5 @@
 .card {
+    margin-top: -150px;
     width: 200px;
     height: 300px;
     background-color: #f0f0f0;
@@ -8,7 +9,17 @@
     overflow: hidden;
 
     h1{
+    font-family: font_body;
         color: #4ED5F1;
+    }
+
+    &:hover h1{
+        color: #0d0d0d !important;
+    }
+
+    h2 {
+        font-family: font_body_bold;
+
     }
 
   }
@@ -33,10 +44,18 @@
     left: 50%;
     transform: translateX(-50%);
     transition: top 0.3s ease-in-out;
+
+
   }
   
   .card:hover .circle {
-    top: 70px;
+    top: 170px;
+  }
+
+  
+
+  .card:hover .shape img {
+    display: none;
   }
   
   .card h2 {
@@ -52,10 +71,34 @@
   .hidden-content {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+
+    p{
+        margin-top: -220px;
+    }
+
+
+
+
   }
   
   .card:hover .hidden-content {
     opacity: 1;
-    padding: 10px;
+    padding: 20px;
   }
   
+  .shape img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.3s ease-in-out;
+
+
+
+
+
+   
+}
