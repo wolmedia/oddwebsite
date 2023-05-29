@@ -6,6 +6,7 @@ import './assets/scss/style.scss';
 import Slide from './components/home/slide';
 import Enfoque from './components/home/seccion_enfoque';
 import Btnodd from './components/_btnodd';
+import Experiencia from './components/home/experiencia';
 // import Navbarodd from './components/navbar/navbar'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Slide />
     <Enfoque />
     <Btnodd />
+    <Experiencia />
 
 
     
