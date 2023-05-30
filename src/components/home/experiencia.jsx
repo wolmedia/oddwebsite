@@ -11,7 +11,7 @@ function Experiencia (){
 
         <Container fluid className='section_experiencia bg_experiencia'>
         <Row className='taggin'>
-       
+        
         <img src ={Tagging} alt="Logo"/>
 
        
