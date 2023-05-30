@@ -19,6 +19,8 @@ function App() {
     <Btnodd />
     <Experiencia />
     <Card />
+    <Btnodd />
+
 
 
     
