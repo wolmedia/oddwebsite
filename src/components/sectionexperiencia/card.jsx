@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
-import shape  from '../../assets/img/shapes/shape.png'
+import shape  from '../../assets/img/Svg/shape.svg'
 
 
 const Card = () => {
