@@ -24,7 +24,7 @@ const Card = () => {
 
     <Col>
     <div className="card">
-      <div className="circle"><h1>+ 2</h1></div>
+      <div className="circle"><h1>+50</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
@@ -37,7 +37,7 @@ const Card = () => {
 
     <Col>
     <div className="card">
-      <div className="circle"><h1>+ 2</h1></div>
+      <div className="circle"><h1>+10</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
@@ -50,7 +50,7 @@ const Card = () => {
 
     <Col>
     <div className="card">
-      <div className="circle"><h1>+ 2</h1></div>
+      <div className="circle"><h1>+15</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
@@ -63,7 +63,7 @@ const Card = () => {
 
     <Col>
     <div className="card">
-      <div className="circle"><h1>+ 2</h1></div>
+      <div className="circle"><h1>+15</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
