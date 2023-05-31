@@ -3,7 +3,7 @@ import './assets/main.css'
 import '../src/index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/scss/style.scss';
-import 'animate.css/animate.min.css'
+// import 'animate.css/animate.min.css'
 import Slide from './components/home/slide';
 import Enfoque from './components/home/seccion_enfoque';
 import Btnodd from './components/_btnodd';
