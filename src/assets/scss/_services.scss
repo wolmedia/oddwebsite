@@ -35,7 +35,7 @@
       h2 {
         margin-top: 100px;
         margin-top: 80px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-family: font_title;
     font-size: 40px;
    text-align: center;
@@ -60,20 +60,22 @@
 
 
       &:hover img {
-        content: url(''); // Vacío por defecto
+        content: url('../img/Gif/tria\ 2.gif');
+        max-width: 70%;
+      
       }
   
       &:hover:hover img {
-        content: url(''); // Vacío por defecto
+        content: url('../img/Gif/tria\ 2.gif'); 
+        max-width: 70%;
+       
       }
   
       &:hover:hover img:hover {
-        content: url(''); // Vacío por defecto
+        content: url('../img/Gif/tria\ 2.gif');
+        max-width: 70%;
+        
       }
-
-
-
-
 
 
     }
