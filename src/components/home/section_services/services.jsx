@@ -1,17 +1,13 @@
 import React, { useState } from 'react';
 import imagen1 from '../../../assets/img/figure/development_black.png';
+import gif1 from '../../../assets/img/Gif/tria 2.gif';
 import imagen2 from '../../../assets/img/figure/seo_black.png';
+import gif2 from '../../../assets/img/Gif/seo0.gif';
 import imagen3 from '../../../assets/img/figure/tagging_black.png';
 import imagen4 from '../../../assets/img/figure/it_black.png';
 import imagen5 from '../../../assets/img/figure/digital_black.png';
 import imagen6 from '../../../assets/img/figure/atl_black.png';
 import { Container, Row } from 'react-bootstrap';
-
-
-
-
-
-
 
 
 
@@ -25,6 +21,7 @@ const Services = () => {
 
       id: 1,
       image: imagen1,
+      gif: gif1,
       title: 'DEVELOPMENT',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
       link: 'https://ejemplo.com'
@@ -32,6 +29,7 @@ const Services = () => {
     {
       id: 2,
       image: imagen2,
+      gif: gif2,
       title: 'SEO',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
       link: 'https://ejemplo.com'
@@ -64,9 +62,9 @@ const Services = () => {
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
       link: 'https://ejemplo.com'
     }
-    
-  
- 
+
+
+
   ];
 
   const handlePrev = () => {
@@ -87,29 +85,38 @@ const Services = () => {
   return (
     <Container>
       <Row className="justify-content-md-center">
-    <div className="carousel">
-      <div className="card-container">
-        {visibleCards.map((card) => (
-          <div className="card" key={card.id}>
-            <img src={card.image} alt={card.title} />
-            <h2>{card.title}</h2>
-            <p>{card.paragraph}</p>
-            <a href={card.link}>Ir</a>
+
+        <div className="carousel">
+          <div className="card-container">
+
+            {visibleCards.map((card) => (
+              <div className="card" key={card.id}>
+                <img src={card.image} alt={card.title} />
+                <h2>{card.title}</h2>
+                <p>{card.paragraph}</p>
+                <a href={card.link}>Ir</a>
+              </div>
+            ))}
+
           </div>
-        ))}
-      </div>
-      <div className="navigation">
-        <button onClick={handlePrev} disabled={currentIndex === 0}>
-          Anterior
-        </button>
-        {showNextButton && (
-          <button onClick={handleNext}>
-            Siguiente
-          </button>
-        )}
-      </div>
-    </div>
-    </Row>
+
+          <div className="navigation">
+
+            <button onClick={handlePrev} disabled={currentIndex === 0}>
+              Anterior
+            </button>
+
+            {showNextButton && (
+
+              <button onClick={handleNext}>
+                Siguiente
+              </button>
+
+            )}
+          </div>
+        </div>
+
+      </Row>
     </Container>
   );
 };
