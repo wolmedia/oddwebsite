@@ -1,3 +1,6 @@
+
+
+
 .carousel {
     
     margin-top: 250px;
@@ -16,13 +19,12 @@
     }
   
     .card {
+      filter: drop-shadow(5px 5px 10px #000);
 
-        
-        
-    background-color: #0d0d0d;
+      background-color: #0d0d0d;
       height:600px;
       width: 33.33%;
-      padding: 20px;
+      padding: 10px;
       text-align: center;
   
       img {
@@ -35,14 +37,28 @@
       h2 {
         margin-top: 100px;
         margin-top: 80px;
-    letter-spacing: 5px;
-    font-family: font_title;
-    font-size: 40px;
-   text-align: center;
-   background: linear-gradient(45deg,  #F58BFC,#92E8FA);
-   background-clip: text;
-   -webkit-background-clip: text;
-   color: transparent;  
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+
+        &:hover{
+          margin-top: 100px;
+          margin-top: 80px;
+          letter-spacing: 5px;
+          font-family: font_title;
+          font-size: 40px;
+          text-align: center;
+          background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+          background-clip: text;
+         -webkit-background-clip: text;
+          color: transparent;  
+        }
+
       }
   
       p {
@@ -62,18 +78,57 @@
       &:hover img {
         content: url('../img/Gif/tria\ 2.gif');
         max-width: 70%;
+
+        &:hover h2{
+          margin-top: 100px;
+          margin-top: 80px;
+          letter-spacing: 5px;
+          font-family: font_title;
+          font-size: 40px;
+          text-align: center;
+          background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+          background-clip: text;
+         -webkit-background-clip: text;
+          color: transparent;  
+        }
       
       }
   
       &:hover:hover img {
         content: url('../img/Gif/tria\ 2.gif'); 
         max-width: 70%;
+
+        &:hover h2{
+          margin-top: 100px;
+          margin-top: 80px;
+          letter-spacing: 5px;
+          font-family: font_title;
+          font-size: 40px;
+          text-align: center;
+          background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+          background-clip: text;
+         -webkit-background-clip: text;
+          color: transparent;  
+        }
        
       }
   
       &:hover:hover img:hover {
         content: url('../img/Gif/tria\ 2.gif');
         max-width: 70%;
+
+        &:hover h2{
+          margin-top: 100px;
+          margin-top: 80px;
+          letter-spacing: 5px;
+          font-family: font_title;
+          font-size: 40px;
+          text-align: center;
+          background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+          background-clip: text;
+         -webkit-background-clip: text;
+          color: transparent;  
+        }
         
       }
 
@@ -93,3 +148,7 @@
     }
   } 
   
+
+
+
+ 

@@ -28,7 +28,7 @@ const Card = () => {
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
-      <h2>Proveedores de Infraestructura</h2>
+      <h2>Desarrollos Web</h2>
       <div className="hidden-content">
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
       </div>
@@ -41,7 +41,7 @@ const Card = () => {
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
-      <h2>Proveedores de Infraestructura</h2>
+      <h2>Servidores de DB</h2>
       <div className="hidden-content">
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
       </div>
@@ -54,7 +54,7 @@ const Card = () => {
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
-      <h2>Proveedores de Infraestructura</h2>
+      <h2>Soluciones</h2>
       <div className="hidden-content">
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
       </div>
@@ -67,7 +67,7 @@ const Card = () => {
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
-      <h2>Proveedores de Infraestructura</h2>
+      <h2>Automatizaciones</h2>
       <div className="hidden-content">
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
       </div>

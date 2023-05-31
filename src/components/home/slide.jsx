@@ -17,7 +17,7 @@ const slide = () => {
 	  <Carousel>
 		<div>
 		<div className='title_odd'>
-		<h1>Omnichannel v2</h1>
+		<h1>Omnichannel</h1>
 		<h1>Data Driven</h1>
 		<h1>Distinctive Development</h1>
 		<p>Líderes en tecnología</p>
