@@ -7,7 +7,7 @@ import imagen3 from '../../../assets/img/figure/tagging_black.png';
 import imagen4 from '../../../assets/img/figure/it_black.png';
 import imagen5 from '../../../assets/img/figure/digital_black.png';
 import imagen6 from '../../../assets/img/figure/atl_black.png';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row,Col } from 'react-bootstrap';
 
 
 
@@ -85,8 +85,9 @@ const Services = () => {
   return (
     <Container>
       <Row className="justify-content-md-center">
-
+        
         <div className="carousel">
+        <Col>
           <div className="card-container">
 
             {visibleCards.map((card) => (
@@ -99,18 +100,22 @@ const Services = () => {
             ))}
 
           </div>
-
+          </Col>
           <div className="navigation">
-
+             <Col>
             <button onClick={handlePrev} disabled={currentIndex === 0}>
-              Anterior
+              <p></p>
             </button>
+            </Col> 
 
             {showNextButton && (
 
+              <Col>
               <button onClick={handleNext}>
-                Siguiente
+              <p></p>
+
               </button>
+              </Col>
 
             )}
           </div>
