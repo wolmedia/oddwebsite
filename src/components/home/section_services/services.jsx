@@ -1,130 +1,85 @@
+
 import React, { useState } from 'react';
-import imagen1 from '../../../assets/img/figure/development_black.png';
-import gif1 from '../../../assets/img/Gif/tria 2.gif';
-import imagen2 from '../../../assets/img/figure/seo_black.png';
-import gif2 from '../../../assets/img/Gif/seo0.gif';
-import imagen3 from '../../../assets/img/figure/tagging_black.png';
-import imagen4 from '../../../assets/img/figure/it_black.png';
-import imagen5 from '../../../assets/img/figure/digital_black.png';
-import imagen6 from '../../../assets/img/figure/atl_black.png';
-import { Container, Row,Col } from 'react-bootstrap';
 
-
-
-const Services = () => {
-
-
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const data = [
+const Carousel = () => {
+  const carouselData = [
     {
-
       id: 1,
-      image: imagen1,
-      gif: gif1,
-      title: 'DEVELOPMENT',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      imageUrl: '',
+      title: 'Título 1',
+      description: 'Descripción de la tarjeta 1',
+      buttonUrl: 'https://www.ejemplo.com/1',
     },
     {
       id: 2,
-      image: imagen2,
-      gif: gif2,
-      title: 'SEO',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      imageUrl: 'ruta-de-la-imagen-2.jpg',
+      title: 'Título 2',
+      description: 'Descripción de la tarjeta 2',
+      buttonUrl: 'https://www.ejemplo.com/2',
     },
     {
       id: 3,
-      image: imagen3,
-      title: 'TAGGING',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      imageUrl: 'ruta-de-la-imagen-2.jpg',
+      title: 'Título 2',
+      description: 'Descripción de la tarjeta 2',
+      buttonUrl: 'https://www.ejemplo.com/2',
     },
     {
       id: 4,
-      image: imagen4,
-      title: 'IT',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      imageUrl: 'ruta-de-la-imagen-2.jpg',
+      title: 'Título 2',
+      description: 'Descripción de la tarjeta 2',
+      buttonUrl: 'https://www.ejemplo.com/2',
     },
     {
       id: 5,
-      image: imagen5,
-      title: 'REPORTING DIGITAL',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      imageUrl: 'ruta-de-la-imagen-2.jpg',
+      title: 'Título 2',
+      description: 'Descripción de la tarjeta 2',
+      buttonUrl: 'https://www.ejemplo.com/2',
     },
     {
-      id: 6,
-      image: imagen6,
-      title: 'REPORTING ATL',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      id: 3,
+      imageUrl: 'ruta-de-la-imagen-2.jpg',
+      title: 'Título 2',
+      description: 'Descripción de la tarjeta 2',
+      buttonUrl: 'https://www.ejemplo.com/2',
     }
-
-
-
   ];
 
+
+
+  const [activeIndex, setActiveIndex] = useState(0);
+
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? data.length - 1 : prevIndex - 1
-    );
+    setActiveIndex((prevIndex) => (prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === data.length - 1 ? prevIndex : prevIndex + 1
-    );
+    setActiveIndex((prevIndex) => (prevIndex === carouselData.length - 1 ? 0 : prevIndex + 1));
   };
 
-  const visibleCards = data.slice(currentIndex, currentIndex + 3);
-  const showNextButton = currentIndex < data.length - 3;
-
   return (
-    <Container>
-      <Row className="justify-content-md-center">
-        
-        <div className="carousel">
-        <Col>
-          <div className="card-container">
-
-            {visibleCards.map((card) => (
-              <div className="card" key={card.id}>
-                <img src={card.image} alt={card.title} />
-                <h2>{card.title}</h2>
-                <p>{card.paragraph}</p>
-                <a href={card.link}>Ir</a>
-              </div>
-            ))}
-
+    <div className="carousel">
+      <button onClick={handlePrev}>Anterior</button>
+      <div className="card-container">
+        {carouselData.map((card, index) => (
+          <div
+            key={card.id}
+            className={`card ${index === activeIndex ? 'active' : ''}`}
+          >
+            <img src={card.imageUrl} alt="Imagen principal" />
+            <h2>{card.title}</h2>
+            <p>{card.description}</p>
+            <a href={card.buttonUrl} target="_blank" rel="noopener noreferrer">
+              Botón de redireccionamiento
+            </a>
           </div>
-          </Col>
-          <div className="navigation">
-             <Col>
-            <button onClick={handlePrev} disabled={currentIndex === 0}>
-              <p></p>
-            </button>
-            </Col> 
-
-            {showNextButton && (
-
-              <Col>
-              <button onClick={handleNext}>
-              <p></p>
-
-              </button>
-              </Col>
-
-            )}
-          </div>
-        </div>
-
-      </Row>
-    </Container>
+        ))}
+      </div>
+      <button onClick={handleNext}>Siguiente</button>
+    </div>
   );
 };
 
-export default Services;
-
+export default Carousel;
