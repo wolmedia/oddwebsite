@@ -1,82 +1,107 @@
-import Image1 from '../../../assets/img/figure/development_black.png';
-
-
 import React, { useState } from 'react';
+import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
-const Carousel = () => {
-  const carouselData = [
+
+const CardSlider = () => {
+  const [cards, setCards] = useState([
     {
       id: 1,
-      imageUrl: {Image1},
-      title: 'Título 1',
+      title: 'Tarjeta 1',
+      image: '../../../assets/img/figure/development_black.png',
       description: 'Descripción de la tarjeta 1',
-      buttonUrl:  'https://www.ejemplo.com/2',
+      url: 'https://www.example.com'
     },
     {
       id: 2,
-      imageUrl: 'ruta-de-la-imagen-2.jpg',
-      title: 'Título 2',
+      title: 'Tarjeta 2',
+      image: 'imagen2.jpg',
       description: 'Descripción de la tarjeta 2',
-      buttonUrl: 'https://www.ejemplo.com/2',
+      url: 'https://www.example.com'
     },
     {
       id: 3,
-      imageUrl: 'ruta-de-la-imagen-2.jpg',
-      title: 'Título 3',
-      description: 'Descripción de la tarjeta 2',
-      buttonUrl: 'https://www.ejemplo.com/2',
-    },
-    {
-      id: 4,
-      imageUrl: 'ruta-de-la-imagen-2.jpg',
-      title: 'Título 4',
-      description: 'Descripción de la tarjeta 2',
-      buttonUrl: 'https://www.ejemplo.com/2',
-    },
-    {
-      id: 5,
-      imageUrl: 'ruta-de-la-imagen-2.jpg',
-      title: 'Título 5',
-      description: 'Descripción de la tarjeta 2',
-      buttonUrl: 'https://www.ejemplo.com/2',
-    },
-    {
-      id: 6,
-      imageUrl: 'ruta-de-la-imagen-2.jpg',
-      title: 'Título 6',
-      description: 'Descripción de la tarjeta 2',
-      buttonUrl: 'https://www.ejemplo.com/2',
+      title: 'Tarjeta 3',
+      image: 'imagen3.jpg',
+      description: 'Descripción de la tarjeta 3',
+      url: 'https://www.example.com'
     }
-  ];
+  ]);
 
-  const [startIndex, setStartIndex] = useState(0);
+  const [visibleCards, setVisibleCards] = useState(3);
 
-  const handlePrev = () => {
-    setStartIndex((prevIndex) => (prevIndex === 0 ? carouselData.length - 3 : prevIndex - 1));
+  const handleHover = (cardId) => {
+    const updatedCards = cards.map((card) => {
+      if (card.id === cardId) {
+        return {
+          ...card,
+          isHovered: true
+        };
+      }
+      return card;
+    });
+    setCards(updatedCards);
+  };
+
+  const handleMouseOut = (cardId) => {
+    const updatedCards = cards.map((card) => {
+      if (card.id === cardId) {
+        return {
+          ...card,
+          isHovered: false
+        };
+      }
+      return card;
+    });
+    setCards(updatedCards);
   };
 
   const handleNext = () => {
-    setStartIndex((prevIndex) => (prevIndex === carouselData.length - 3 ? 0 : prevIndex + 1));
+    setVisibleCards(visibleCards + 1);
+  };
+
+  const handlePrev = () => {
+    setVisibleCards(visibleCards - 1);
   };
 
   return (
-    <div className="carousel">
-      <button onClick={handlePrev}>Anterior</button>
-      <div className="card-container">
-        {carouselData.slice(startIndex, startIndex + 3).map((card) => (
-          <div key={card.id} className="card">
-            <img src={card.imageUrl} alt="Imagen principal" />
-            <h2>{card.title}</h2>
-            <p>{card.description}</p>
-            <a href={card.buttonUrl} target="_blank" rel="noopener noreferrer">
-              Botón de redireccionamiento
-            </a>
+    <Container >
+      <div className="card-slider">
+        <div className="slider-container">
+          <div className="card-wrapper" style={{ transform: `translateX(-${(visibleCards - 3) * 33.33}%)` }}>
+            {cards.map((card) => (
+              <Card
+                key={card.id}
+                className={`card ${card.isHovered ? 'hovered' : ''}`}
+                onMouseEnter={() => handleHover(card.id)}
+                onMouseLeave={() => handleMouseOut(card.id)}
+              >
+                <Card.Img variant="top" src={card.image} alt={card.title} />
+                <Card.Body>
+                  <Card.Title>{card.title}</Card.Title>
+                  <Card.Text>{card.description}</Card.Text>
+                  <Button href={card.url} variant="primary">Ver más</Button>
+                </Card.Body>
+              </Card>
+            ))}
           </div>
-        ))}
+        </div>
+        <div className="slider-controls">
+          {visibleCards > 3 && (
+            <button className="prev-button" onClick={handlePrev}>
+              <i className="fas fa-chevron-left"></i>
+            </button>
+          )}
+          {visibleCards < cards.length && (
+            <button className="next-button" onClick={handleNext}>
+              <i className="fas fa-chevron-right"></i>
+            </button>
+          )}
+        </div>
       </div>
-      <button onClick={handleNext}>Siguiente</button>
-    </div>
+    </Container>
   );
 };
 
-export default Carousel;
+export default CardSlider;
