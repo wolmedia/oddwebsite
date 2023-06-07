@@ -24,7 +24,8 @@ const Services = () => {
       gif: gif1,
       title: 'DEVELOPMENT',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      link: 'https://ejemplo.com',
+      look: 'style1'
     },
     {
       id: 2,
@@ -32,21 +33,27 @@ const Services = () => {
       gif: gif2,
       title: 'SEO',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      link: 'https://ejemplo.com',
+      look: 'style2'
+
     },
     {
       id: 3,
       image: imagen3,
       title: 'TAGGING',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      link: 'https://ejemplo.com',
+      look: 'style3'
+
     },
     {
       id: 4,
       image: imagen4,
       title: 'IT',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      link: 'https://ejemplo.com',
+      look: 'style4'
+
     },
     {
       id: 5,
@@ -86,12 +93,12 @@ const Services = () => {
     <Container>
       <Row className="justify-content-md-center">
         
-        <div className="carousel">
+        <div className="carousel_solutions">
         <Col>
           <div className="card-container">
 
             {visibleCards.map((card) => (
-              <div className="card" key={card.id}>
+              <div className={card.look} key={card.id}>
                 <img src={card.image} alt={card.title} />
                 <h2>{card.title}</h2>
                 <p>{card.paragraph}</p>

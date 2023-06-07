@@ -1,7 +1,7 @@
 
 
 
-.carousel {
+.carousel_solutions {
     
     margin-top: 250px;
     display: flex;
@@ -18,7 +18,7 @@
       margin-top: 20px;
     }
   
-    .card {
+    .style1 {
       filter: drop-shadow(5px 5px 10px #000);
 
       background-color: #0d0d0d;
@@ -136,15 +136,16 @@
     }
   
     .navigation {
-      position: absolute;
+      
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 200%;
+      width: 210%;
+      margin-top: -300px;
       
   
       button {
-        background: transparent;
+        background: red;
         
         border-radius: 100%;
         height: 50px;
@@ -158,3 +159,482 @@
 
 
  
+
+
+
+// SOLUTION 2
+
+
+.carousel_solutions {
+    
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .style2 {
+    filter: drop-shadow(5px 5px 10px #000);
+
+    background-color: #0d0d0d;
+    height:600px;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+      max-width: 70%;
+      height: auto;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 100px;
+      margin-top: 80px;
+      letter-spacing: 5px;
+      font-family: font_title;
+      font-size: 40px;
+      text-align: center;
+      background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+      background-clip: text;
+     -webkit-background-clip: text;
+      color: transparent;  
+
+      &:hover{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+
+    }
+
+    p {
+      margin-top: 5px;
+      font-family: font_body;
+      letter-spacing: 1px;
+      text-transform: none;
+
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+    }
+
+
+    &:hover img {
+      content: url('../img/Gif/seo0.gif');
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+    
+    }
+
+    &:hover:hover img {
+      content: url('../img/Gif/seo0.gif'); 
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+     
+    }
+
+    &:hover:hover img:hover {
+      content: url('../img/Gif/seo0.gif');
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+      
+    }
+
+
+  }
+
+  .navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210%;
+    margin-top: -300px;
+    
+
+    button {
+      background: red;
+      
+      border-radius: 100%;
+      height: 50px;
+      width: 50px;
+      margin: 0 5px;
+    }
+  }
+} 
+
+// SOLUTION 3
+
+
+.carousel_solutions {
+    
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .style3 {
+    filter: drop-shadow(5px 5px 10px #000);
+
+    background-color: #0d0d0d;
+    height:600px;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+      max-width: 70%;
+      height: auto;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 100px;
+      margin-top: 80px;
+      letter-spacing: 5px;
+      font-family: font_title;
+      font-size: 40px;
+      text-align: center;
+      background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+      background-clip: text;
+     -webkit-background-clip: text;
+      color: transparent;  
+
+      &:hover{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+
+    }
+
+    p {
+      margin-top: 5px;
+      font-family: font_body;
+      letter-spacing: 1px;
+      text-transform: none;
+
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+    }
+
+
+    &:hover img {
+      content: url('../img/Gif/tria\ 2.gif');
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+    
+    }
+
+    &:hover:hover img {
+      content: url('../img/Gif/tria\ 2.gif'); 
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+     
+    }
+
+    &:hover:hover img:hover {
+      content: url('../img/Gif/tria\ 2.gif');
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+      
+    }
+
+
+  }
+
+  .navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210%;
+    margin-top: -300px;
+    
+
+    button {
+      background: red;
+      
+      border-radius: 100%;
+      height: 50px;
+      width: 50px;
+      margin: 0 5px;
+    }
+  }
+} 
+
+
+
+// SOLUTION 4
+
+
+.carousel_solutions {
+    
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .style4 {
+    filter: drop-shadow(5px 5px 10px #000);
+
+    background-color: #0d0d0d;
+    height:600px;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+      max-width: 70%;
+      height: auto;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 100px;
+      margin-top: 80px;
+      letter-spacing: 5px;
+      font-family: font_title;
+      font-size: 40px;
+      text-align: center;
+      background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+      background-clip: text;
+     -webkit-background-clip: text;
+      color: transparent;  
+
+      &:hover{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+
+    }
+
+    p {
+      margin-top: 5px;
+      font-family: font_body;
+      letter-spacing: 1px;
+      text-transform: none;
+
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+    }
+
+
+    &:hover img {
+      content: url('../img/Gif/tria\ 2.gif');
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+    
+    }
+
+    &:hover:hover img {
+      content: url('../img/Gif/tria\ 2.gif'); 
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+     
+    }
+
+    &:hover:hover img:hover {
+      content: url('../img/Gif/tria\ 2.gif');
+      max-width: 70%;
+
+      &:hover h2{
+        margin-top: 100px;
+        margin-top: 80px;
+        letter-spacing: 5px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+        background-clip: text;
+       -webkit-background-clip: text;
+        color: transparent;  
+      }
+      
+    }
+
+
+  }
+
+  .navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210%;
+    margin-top: -300px;
+    
+
+    button {
+      background: red;
+      
+      border-radius: 100%;
+      height: 50px;
+      width: 50px;
+      margin: 0 5px;
+    }
+  }
+} 
+
+
+
+
