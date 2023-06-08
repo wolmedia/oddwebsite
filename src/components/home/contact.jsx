@@ -68,10 +68,10 @@ function Contacto (){
             </Form.Group>
           </Col>
         </Row>
-        <Row className="justify-content-center">
-          <Button variant="primary" type="submit">
+        <Row className="justify-content-center btn_contact">
+          {/* <Button variant="primary" type="submit">
             Enviar
-          </Button>
+          </Button> */}
         </Row>
       </Form>
      
