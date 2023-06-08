@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+ 
+
   
     .card-container {
       display: flex;
@@ -313,7 +316,7 @@
           font-family: font_title;
           font-size: 30px;
           text-align: center;
-          background: linear-gradient(45deg,  #5852f2, #171640);
+          background: linear-gradient(45deg,  #1D54A8, #5E9FFF);
           background-clip: text;
          -webkit-background-clip: text;
           color: transparent;  
@@ -382,7 +385,7 @@
           font-family: font_title;
           font-size: 30px;
           text-align: center;
-          background: linear-gradient(45deg,  #5852f2, #171640);
+          background: linear-gradient(45deg,  #A62E38, #260E1E);
           background-clip: text;
          -webkit-background-clip: text;
           color: transparent;  
@@ -434,7 +437,7 @@
       justify-content: space-between;
       align-items: center;
       width: 210%;
-      margin-top: -300px;
+      margin-top: -380px;
 
       button {
         background: linear-gradient(45deg,  #F58BFC,#92E8FA);
@@ -446,4 +449,7 @@
     }
 
 
+
+    // Scroll horizontal con arrastre del mouse
+  
 
