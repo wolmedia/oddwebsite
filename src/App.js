@@ -9,13 +9,15 @@ import Btnodd from './components/_btnodd';
 import Experiencia from './components/home/experiencia';
 import  Card from './components/sectionexperiencia/card';
 import Services from './components/home/section_services/services';
-// import Navbarodd from './components/navbar/navbar'
+import Navbarodd from './components/navbar/navbar'
 import Btnsee from './components/home/btn/_btn';
+import Contacto from './components/home/contact';
+
 
 function App() {
   return (
     <>
-    {/* <Navbarodd />  */}
+    <Navbarodd /> 
     <Slide />
     <Enfoque />
     <Btnodd />
@@ -23,6 +25,7 @@ function App() {
     <Card />
     <Btnsee />
     <Services />
+    <Contacto />
     
 
 

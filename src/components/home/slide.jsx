@@ -15,7 +15,7 @@ const slide = () => {
 	
 	return (
 	  <Carousel>
-		<div>
+		<div className='btn_slide'>
 		<div className='title_odd'>
 		<h1>Omnichannel</h1>
 		<h1>Data Driven</h1>
@@ -32,7 +32,7 @@ const slide = () => {
 </video>
 </div>
 
-<div>
+<div className='btn_slide'>
 		<div className='title_odd'>
 		<h1>Omnichannel</h1>
 		<h1>Data Driven</h1>

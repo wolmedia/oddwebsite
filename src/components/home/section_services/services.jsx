@@ -91,7 +91,7 @@ const Services = () => {
   };
 
   const visibleCards = data.slice(currentIndex, currentIndex + 3);
-  const showNextButton = currentIndex < data.length - 3;
+  const showNextButton = currentIndex < data.length - 0;
 
   return (
     <Container>
