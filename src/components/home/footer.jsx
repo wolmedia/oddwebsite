@@ -3,11 +3,7 @@ import LogoFooter from '../../assets/img/footer/isotipo_odd.svg';
 import fb from '../../assets/img/footer/fb.svg';
 import IG from '../../assets/img/footer/ig.svg';
 import In from '../../assets/img/footer/in.svg';
-
-
-
-
-import Line from '../../assets/img/footer/line.png'
+import Line from '../../assets/img/Gif/circ.gif'
 
 
 
