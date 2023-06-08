@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form,  } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 
 
@@ -29,7 +29,7 @@ function Contacto (){
        </Row>
       
 
-       <Form className='form-container'>
+       <Form className='form-container border-gradient-purple'>
         <Row>
           <Col>
             <Form.Group controlId="nombre">
@@ -68,10 +68,10 @@ function Contacto (){
             </Form.Group>
           </Col>
         </Row>
-        <Row className="justify-content-center btn_contact">
-          {/* <Button variant="primary" type="submit">
+        <Row className="justify-content-center btn_contact ">
+          <Button variant="primary" type="submit">
             Enviar
-          </Button> */}
+          </Button>
         </Row>
       </Form>
      
