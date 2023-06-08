@@ -115,7 +115,7 @@ const Services = () => {
           <div className="navigation">
              <Col>
             <button onClick={handlePrev} disabled={currentIndex === 0}>
-              <p></p>
+              <p className='Prev'></p>
             </button>
             </Col> 
 
@@ -123,7 +123,7 @@ const Services = () => {
 
               <Col>
               <button onClick={handleNext}>
-              <p></p>
+              <p className='Next'></p>
 
               </button>
               </Col>

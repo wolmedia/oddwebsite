@@ -12,6 +12,7 @@ import Services from './components/home/section_services/services';
 import Navbarodd from './components/navbar/navbar'
 import Btnsee from './components/home/btn/_btn';
 import Contacto from './components/home/contact';
+import Footer from './components/home/footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <Btnsee />
     <Services />
     <Contacto />
+    <Footer />
     
 
 

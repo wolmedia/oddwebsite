@@ -51,3 +51,10 @@ font-family: font_title_v2;
 width: 150px;
 padding: 5px;
 }
+
+
+.navbar-language select::slotted{
+    background-color: red;
+font-family: font_title_v2;
+
+}
