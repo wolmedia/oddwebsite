@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import imagen1 from '../../../assets/img/figure/development_black.png';
-import gif1 from '../../../assets/img/Gif/tria 2.gif';
+import gif1 from '../../../assets/img/Gif/dev.gif';
 import imagen2 from '../../../assets/img/figure/seo_black.png';
 import gif2 from '../../../assets/img/Gif/seo0.gif';
 import imagen3 from '../../../assets/img/figure/tagging_black.png';
@@ -60,14 +60,18 @@ const Services = () => {
       image: imagen5,
       title: 'REPORTING DIGITAL',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      link: 'https://ejemplo.com',
+      look: 'style5'
+
     },
     {
       id: 6,
       image: imagen6,
       title: 'REPORTING ATL',
       paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      link: 'https://ejemplo.com'
+      link: 'https://ejemplo.com',
+      look: 'style6'
+
     }
 
 
@@ -102,7 +106,7 @@ const Services = () => {
                 <img src={card.image} alt={card.title} />
                 <h2>{card.title}</h2>
                 <p>{card.paragraph}</p>
-                <a href={card.link}>Ir</a>
+                <a href={card.link}>Más información</a>
               </div>
             ))}
 
