@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,6 +18,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
     "sass": "^1.62.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -24,8 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"react-scripts build && aws s3 sync build/ s3://oddsite-bucket/ --acl public-read"
-
+    "deploy": "react-scripts build && aws s3 sync build/ s3://oddsite-bucket/ --acl public-read"
   },
   "eslintConfig": {
     "extends": [

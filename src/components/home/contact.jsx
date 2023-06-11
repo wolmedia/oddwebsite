@@ -1,6 +1,29 @@
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 
 
+
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_m22let8', 'template_7z58ym9', Form.current, '2JK4Ze3XzYL-aq7kW')
+    .then((result) => {
+      swal({
+        title: "Good job!",
+  text: "You clicked the button!",
+  icon: "success",
+  button: "Aww yiss!",
+        })
+      // console.log(Form.current);
+      //   console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+        console.log(Form.current);
+
+    });
+};
 
 
 function Contacto (){
@@ -29,12 +52,12 @@ function Contacto (){
        </Row>
       
 
-       <Form className='form-container border-gradient-purple'>
+       <Form className='form-container border-gradient-purple' ref={Form} onSubmit={sendEmail}>
         <Row>
           <Col>
             <Form.Group controlId="nombre">
-              <Form.Label>Nombre</Form.Label>
-              <Form.Control type="text" placeholder="Ingresa tu nombre" />
+              <Form.Label >Nombre</Form.Label>
+              <input type="text" placeholder ="Ingresa tu nombre" name="nombre" />
             </Form.Group>
           </Col>
           <Col>
