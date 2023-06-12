@@ -11,10 +11,10 @@ const sendEmail = (e) => {
   emailjs.sendForm('service_m22let8', 'template_7z58ym9', Form.current, '2JK4Ze3XzYL-aq7kW')
     .then((result) => {
       swal({
-        title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success",
-  button: "Aww yiss!",
+        title: "¡Gracias!",
+        text: "Nos pondremos en contacto contigo",
+        icon: "https://odd.digital/circ.gif",
+        button: "#Be Distinctive!",
         })
       // console.log(Form.current);
       //   console.log(result.text);
@@ -63,7 +63,7 @@ function Contacto (){
           <Col>
             <Form.Group controlId="apellido">
               <Form.Label>Apellido</Form.Label>
-              <Form.Control type="text" placeholder="Ingresa tu apellido" />
+              <Form.Control type="text" placeholder="Ingresa tu apellido " name="apellido"/>
             </Form.Group>
           </Col>
         </Row>
@@ -71,7 +71,7 @@ function Contacto (){
           <Col>
             <Form.Group controlId="email">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Ingresa tu email" />
+              <Form.Control type="email" placeholder="Ingresa tu email" name="email"/>
             </Form.Group>
           </Col>
         </Row>
@@ -79,7 +79,7 @@ function Contacto (){
           <Col>
             <Form.Group controlId="asunto">
               <Form.Label>Asunto</Form.Label>
-              <Form.Control type="text" placeholder="Ingresa el asunto" />
+              <Form.Control type="text" placeholder="Ingresa el asunto" name="asunto" />
             </Form.Group>
           </Col>
         </Row>
@@ -87,7 +87,7 @@ function Contacto (){
           <Col>
             <Form.Group controlId="mensaje">
               <Form.Label>Mensaje</Form.Label>
-              <Form.Control as="textarea" rows={4} placeholder="Ingresa tu mensaje" />
+              <Form.Control as="textarea" rows={4} placeholder="Ingresa tu mensaje" name="mensaje" />
             </Form.Group>
           </Col>
         </Row>
