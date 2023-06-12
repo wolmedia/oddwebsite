@@ -16,11 +16,13 @@ const sendEmail = (e) => {
         icon: "https://odd.digital/circ.gif",
         button: "#Be Distinctive!",
         })
-      // console.log(Form.current);
-      //   console.log(result.text);
+      console.log(Form.current);
+        console.log(result.text);
+        Form.current.reset();
     }, (error) => {
         console.log(error.text);
         console.log(Form.current);
+       
 
     });
 };
