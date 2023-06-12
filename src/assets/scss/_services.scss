@@ -47,7 +47,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
       img {
         margin: 0 auto;
-        max-width: 80%;
+        max-width: 60%;
         height: auto;
         text-align: center;
       }
@@ -97,7 +97,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
 
       &:hover img {
         content: url('../img/Gif/dev.gif');
-        max-width: 100%;
+        max-width: 60%;
       }
 
       }
@@ -116,7 +116,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
     
         img {
           margin: 0 auto;
-          max-width: 80%;
+          max-width: 60%;
           height: auto;
           text-align: center;
         }
@@ -165,7 +165,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
         &:hover img {
           content: url('../img/Gif/seo0.gif');
-          max-width: 80%;
+          max-width: 60%;
         }
   
         }
@@ -185,7 +185,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
     
         img {
           margin: 0 auto;
-          max-width: 80%;
+          max-width: 60%;
           height: auto;
           text-align: center;
         }
@@ -234,7 +234,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
         &:hover img {
           content: url('../img/Gif/tagg.gif');
-          max-width: 100%;
+          max-width: 60%;
         }
   
         }
@@ -254,7 +254,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
     
         img {
           margin: 0 auto;
-          max-width: 80%;
+          max-width: 60%;
           height: auto;
           text-align: center;
         }
@@ -303,7 +303,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
         &:hover img {
           content: url('../img/Gif/it0.gif');
-          max-width: 100%;
+          max-width: 60%;
         }
   
         }
@@ -323,7 +323,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
     
         img {
           margin: 0 auto;
-          max-width: 70%;
+          max-width: 60%;
           height: auto;
           text-align: center;
         }
@@ -372,7 +372,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
         &:hover img {
           content: url('../img/Gif/dig0.gif');
-          max-width: 100%;
+          max-width: 60%;
         }
   
         }
@@ -393,7 +393,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
     
         img {
           margin: 0 auto;
-          max-width: 70%;
+          max-width: 60%;
           height: auto;
           text-align: center;
         }
@@ -442,7 +442,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
         &:hover img {
           content: url('../img/Gif/atl0.gif');
-          max-width: 100%;
+          max-width: 6  0%;
         }
   
         }
@@ -476,6 +476,8 @@ button .Next {
   width: 100px;
   margin-bottom: 90px;
   justify-content: center;
+
+  
 }
   
 button .Prev {
@@ -487,3 +489,4 @@ button .Prev {
   justify-content: center;
 }
   
+

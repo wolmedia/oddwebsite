@@ -20,10 +20,14 @@
 
     &:hover{
     
-    background: linear-gradient(45deg,  #92E8FA, #F58BFC);
-    width: 44%;
-    color: #0d0d0d;
-    border: solid 1px #0d0d0d;
+        
+        padding: 1rem;
+        position: relative;
+        background: linear-gradient(to right, #92E8FA, #F58BFC);
+        padding: 3px;
+
+        
+    
 
 
     }
@@ -131,4 +135,11 @@
             font-family: font_body_bold;
    background: linear-gradient(45deg,  #F58BFC,#92E8FA);
 
+        }
+
+        .swal-icon img {
+            max-width: 60%;
+            max-height: 60%;
+            display: block;
+            margin: auto;
         }
