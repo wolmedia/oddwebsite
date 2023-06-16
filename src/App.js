@@ -14,6 +14,7 @@ import Btnsee from './components/home/btn/_btn';
 import Contacto from './components/home/contact';
 import Footer from './components/home/footer';
 import Copy from './components/home/copy';
+import FAQChatbot from './components/bot/dialogflow';
 
 
 
@@ -31,6 +32,7 @@ function App() {
     <Contacto />
     <Footer />
     <Copy />
+    <FAQChatbot />
     
 
 
