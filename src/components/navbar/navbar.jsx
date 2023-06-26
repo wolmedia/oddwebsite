@@ -1,11 +1,13 @@
+
 import React from 'react';
-import Logo from '../../assets/img/Institucional/logo.png'
+import LogoNavgar from '../../assets/img/footer/isotipo_odd.svg';
+
 
 function Navbar() {
   return (
     <nav>
       <div className="navbar-logo">
-      <img src ={Logo} alt="Logo"/>
+      <img src ={LogoNavgar} alt="Logo"/>
 
       </div>
       <ul className="navbar-links">
@@ -14,6 +16,7 @@ function Navbar() {
         <li><a href="/servicios">Servicios</a></li>
         <li><a href="/contactos">Contactos</a></li>
       </ul>
+
       <div className="navbar-language">
         <select>
           <option value="en">English</option>
