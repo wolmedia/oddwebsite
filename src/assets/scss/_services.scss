@@ -456,7 +456,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 220%;
+      width: 225%;
       margin-top: -480px;
 
       button {
@@ -470,7 +470,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
 
 
 button .Next {
-  background-image: url('../img/arrow/next.png');
+  background-image: url('../img/arrow/next.svg');
  background-repeat: no-repeat;
   height: 100px;
   width: 100px;
@@ -481,7 +481,7 @@ button .Next {
 }
   
 button .Prev {
-  background-image: url('../img/arrow/prev.png');
+  background-image: url('../img/arrow/prev.svg');
  background-repeat: no-repeat;
   height: 100px;
   width: 100px;
