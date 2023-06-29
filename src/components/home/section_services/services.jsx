@@ -97,7 +97,7 @@ const Services = () => {
     <Container>
       <Row className="justify-content-md-center">
         
-        <div className="carousel_solutions">
+        <div className="carousel_solutions animate-fade-up">
         <Col>
           <div className="card-container">
 

@@ -21,6 +21,7 @@
     "sass": "^1.62.1",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.7.12",
+    "tailwindcss-animated": "^1.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
