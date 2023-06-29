@@ -7,7 +7,7 @@ import shape  from '../../assets/img/Svg/shape.svg'
 
 const Card = () => {
   return (
-    <Container className='animate__animated animate__fadeInDownBig animate__delay-2s'>
+    <Container className="animate-jump-in animate-delay-300 animate-once">
         <Row lg={6} className='gap Cnt_card  '  >
         <Col>
     <div className="card">
