@@ -95,9 +95,9 @@ const Services = () => {
 
   return (
     <Container>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content" >
         
-        <div className="carousel_solutions animate-fade-up">
+        <div className="carousel_solutions ">
         <Col>
           <div className="card-container">
 

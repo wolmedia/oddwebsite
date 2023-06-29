@@ -1,14 +1,16 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
-import shape  from '../../assets/img/Svg/shape.svg'
+import shape  from '../../assets/img/Svg/shape.svg';
+import 'animate.css';
 
 
 
 
 const Card = () => {
   return (
-    <Container className="animate-jump-in animate-delay-300 animate-once">
-        <Row lg={6} className='gap Cnt_card  '  >
+    <Container className="animate__animated animate__backInDown">
+     
+        <Row lg={6} className='gap Cnt_card'  >
         <Col>
     <div className="card">
       <div className="circle"><h1>+ 2</h1></div>
@@ -20,6 +22,7 @@ const Card = () => {
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
       </div>
     </div>
+   
     </ Col>
 
     <Col>
