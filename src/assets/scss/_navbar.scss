@@ -1,4 +1,5 @@
 nav {   
+margin-top: 30px;
 top: 0px;
 height: 50px;
 width: 100vw;
@@ -16,7 +17,7 @@ position: absolute;
 .navbar-logo img {
 width: 30%;
 height: auto;
-margin-left: 100px;
+margin-left: 60px;
 }
 
 .navbar-links {
@@ -54,8 +55,9 @@ padding: 5px;
 }
 
 
-.navbar-language select::slotted{
-    background-color: red;
+.navbar-language select{
+    background-color: transparent;
+    filter: blur();
 font-family: font_title_v2;
 
 }

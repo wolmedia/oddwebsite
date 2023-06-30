@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import shape  from '../../assets/img/Svg/shape.svg';
+import { Element } from 'react-scroll';
 import 'animate.css';
 
 
@@ -8,6 +9,7 @@ import 'animate.css';
 
 const Card = () => {
   return (
+    <Element name="section1" className="element">
     <Container className="animate__animated animate__backInDown">
      
         <Row lg={6} className='gap Cnt_card'  >
@@ -83,6 +85,7 @@ const Card = () => {
     
     
     </Container>
+    </Element>
   );
 }
 
