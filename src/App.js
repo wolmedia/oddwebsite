@@ -38,11 +38,11 @@ function App() {
     <Contacto />
     <Footer />
     <Copy />
-    <Chatbot 
+    {/* <Chatbot 
     config={config}
     messageParser={MessageParser}
     actionProvider={ActionProvider}
-    />
+    /> */}
     
 
 

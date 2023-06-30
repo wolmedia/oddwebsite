@@ -8,11 +8,11 @@ import 'animate.css';
 
 const Card = () => {
   return (
-    <Container className="animate__animated animate__backInDown">
+    <Container className="animate__animated animate__backInDown animate__slower">
      
         <Row lg={6} className='gap Cnt_card'  >
         <Col>
-    <div className="card">
+    <div className="card" >
       <div className="circle"><h1>+ 2</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
