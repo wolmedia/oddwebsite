@@ -15,12 +15,17 @@ import Btnsee from './components/home/btn/_btn';
 import Contacto from './components/home/contact';
 import Footer from './components/home/footer';
 import Copy from './components/home/copy';
+import Shader from  './components/home/Shader/shader';
 import Chatbot from "react-chatbot-kit";
 
 import config from "./config";
 import MessageParser from "./MessageParser";
 import ActionProvider from "./ActionProvider";
 
+import { ShaderArt } from 'https://cdn.skypack.dev/shader-art';
+import { UniformPlugin } from 'https://cdn.skypack.dev/@shader-art/plugin-uniform';
+
+ShaderArt.register([() => new UniformPlugin()]);
 
 
 
@@ -38,6 +43,7 @@ function App() {
     <Contacto />
     <Footer />
     <Copy />
+    <Shader />
     {/* <Chatbot 
     config={config}
     messageParser={MessageParser}
