@@ -10,14 +10,14 @@ const Card = () => {
   return (
     <Container className="animate__animated animate__backInDown animate__slower">
      
-        <Row lg={6} className='gap Cnt_card'  >
+        <Row lg={6} className=' Cnt_card'  >
         <Col>
     <div className="card" >
       <div className="circle"><h1>+ 2</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
-      <h2 >Proveedores de Infraestructura</h2>
+      <h2 >Infraestructura</h2>
       <div className="hidden-content">
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
       </div>

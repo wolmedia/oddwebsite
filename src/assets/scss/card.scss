@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 .card {
@@ -19,7 +19,7 @@
     overflow: hidden;
 
     h1{
-    font-family: font_body;
+        font-family: font_body_bold;
         color: #4ED5F1;
     }
 
@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     transition: top 0.3s ease-in-out;
@@ -102,7 +102,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 130px;
+    top: 140px;
     left: 50%;
     transform: translateX(-50%);
     transition: top 0.3s ease-in-out;
