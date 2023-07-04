@@ -442,7 +442,7 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
   
         &:hover img {
           content: url('../img/Gif/atl0.gif');
-          max-width: 6  0%;
+          max-width: 60%;
         }
   
         }
@@ -452,24 +452,26 @@ background: linear-gradient(0deg, rgba(13,13,13,1) 15%, rgba(27,27,27,1) 100%);
     }
 
     .navigation {
-
+      z-index: 99999999999;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 225%;
+      width: 110%;
       margin-top: -480px;
 
       button {
         background: transparent;
-        border-radius: 100%;
+
        
-        margin: 0 5px;
+       
       }
     }
 
 
 
 button .Next {
+  float: right;
+  margin-left: 1200px;
   background-image: url('../img/arrow/next.svg');
  background-repeat: no-repeat;
   height: 100px;
@@ -481,6 +483,7 @@ button .Next {
 }
   
 button .Prev {
+  float: left;
   background-image: url('../img/arrow/prev.svg');
  background-repeat: no-repeat;
   height: 100px;
