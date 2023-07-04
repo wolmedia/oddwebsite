@@ -25,6 +25,12 @@
     src: url(../font/Barlow_Bold.ttf);
   }
 
+  @font-face {
+    font-family: font_body_black;
+    src: url(../font/Barlow-Black.otf);
+  }
+
+
   
 $odd_ColorPrimary: #0d0d0d;
 $odd_TextColorPrimary : #fefefe;
