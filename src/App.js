@@ -22,10 +22,7 @@ import config from "./config";
 import MessageParser from "./MessageParser";
 import ActionProvider from "./ActionProvider";
 
-import { ShaderArt } from 'https://cdn.skypack.dev/shader-art';
-import { UniformPlugin } from 'https://cdn.skypack.dev/@shader-art/plugin-uniform';
 
-ShaderArt.register([() => new UniformPlugin()]);
 
 
 
@@ -50,7 +47,7 @@ function App() {
     actionProvider={ActionProvider}
     /> */}
     
-
+º
 
     
     </>
