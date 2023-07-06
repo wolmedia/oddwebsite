@@ -1,5 +1,18 @@
 @media (max-width: 450px) {
 
+    .navbar-links, .navbar-language{
+        display: none !important;
+    }
+
+    .navbar-logo img{
+       width: 100px;
+        margin-left: 0 !important;
+    }
+
+    .sphera img{
+        margin-top: 50px;
+    }
+
     .carousel {
 
         height: 100vh;
@@ -41,12 +54,16 @@
         
       
         h1{
-          letter-spacing: 0px;
+            width: 450px;
+            letter-spacing: 3px;
           font-size: 20px;
 
           .dd{
+            width: 450px;
+            letter-spacing:4px;
+
           font-size: 19px;
-          letter-spacing: 0px;
+          
             
           }
         }
@@ -60,9 +77,9 @@
       
         p{
             width: 450px;
-        margin-top: 30px;
-         font-size: 18px;
-         letter-spacing:7px;
+        margin-top: 10px;
+         font-size: 10px;
+         letter-spacing: 11px;
          font-family: font_body;
          text-transform: uppercase;
       
