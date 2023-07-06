@@ -20,7 +20,7 @@ const slide = () => {
 		<div className='title_odd'>
 		<h1>Omnichannel</h1>
 		<h1>Data Driven</h1>
-		<h1>Distinctive Development</h1>
+		<h1><span className='dd'>Distinctive Development</span></h1>
 		<p>Líderes en tecnología</p>
 		<br />
 		<Button className='btn_primary'>Conoce más</Button>
