@@ -66,7 +66,7 @@ const Card = () => {
 
     <Col>
     <div className="card">
-      <div className="circle"><h1>+15</h1></div>
+      <div className="circle"><h1>+25</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
