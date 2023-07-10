@@ -33,9 +33,9 @@ function Enfoque (){
 
         </Row>
         <Row className='txt_odd_enfoque'>
-          <p>Nos enfocamos en salir de lo convencional, en innovar</p>
-          <p>constantemente para que nuestros clientes vean en nosotros un</p>
-          <p>aliado estratégico en análisis de datos y desarrollo de</p> <p>soluciones.</p>
+          <p>Nos enfocamos en salir de lo convencional, en innovar
+          onstantemente para que nuestros clientes vean en nosotros un
+          aliado estratégico en análisis de datos y desarrollo de soluciones.</p>
         </Row>
       
       </Container>

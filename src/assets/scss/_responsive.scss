@@ -10,13 +10,12 @@
     }
 
     .sphera img{
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .carousel {
 
-        height: 80vh;
-
+       
         .btn_slide Button{
           position: relative;
           width: 240px;
@@ -108,7 +107,35 @@
       }
 
 
-       
+       //ENFOQUE//
+
+       h1 {
+        
+          margin-top: 57px;
+          width: 230px;
+          letter-spacing: 1px;
+          font-size: 26px;
+       }
+
+
+       .bullet {
+        margin-top: 60px;
+        letter-spacing: 10px;
+        font-family: font_title;
+        font-size: 40px;
+        text-align: center;
+        color: #fefefe;
+      
+      }
+
+      .txt_odd_enfoque p{
+        font-size: 19px;
+      }
+
+      .Cnt_btn{
+
+        margin-top: 10px
+      }
 
 
 
