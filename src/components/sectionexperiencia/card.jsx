@@ -13,13 +13,13 @@ const Card = () => {
         <Row lg={6} className=' Cnt_card'  >
         <Col>
     <div className="card" >
-      <div className="circle"><h1>+ 2</h1></div>
+      <div className="circle"><h1>+ 5</h1></div>
       <div className='shape'>
       <img src={shape} alt="Shape" />
       </div>
       <h2 >Infraestructura</h2>
       <div className="hidden-content">
-        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. </p>
+        <p>Impulsamos la innovación protegiendo datos e información con nuestra sólida infraestructura en la nube. </p>
       </div>
     </div>
    
