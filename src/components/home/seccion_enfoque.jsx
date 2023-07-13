@@ -10,7 +10,7 @@ import Circ from '../../assets/img/Gif/circ.gif'
 function Enfoque (){
     return(
 
-        <Container fluid className='section_enfoque bg_enfoque'>
+        <Container  className='section_enfoque bg_enfoque'>
          <Row className='sphera'>
          <img src={Circ} alt="Circulo" />
           </Row> 
@@ -33,9 +33,9 @@ function Enfoque (){
 
         </Row>
         <Row className='txt_odd_enfoque'>
-          <p>Nos enfocamos en salir de lo convencional, en innovar
-          onstantemente para que nuestros clientes vean en nosotros un
-          aliado estratégico en análisis de datos y desarrollo de soluciones.</p>
+          <p>La personalidad dinámica e innovadora de ODD nos impulsa a brindar soluciones tecnológicas vanguardistas, 
+            nos retamos constantemente explorando nuevas tecnologías para ofrecer resultados excepcionales. Adaptamos nuestras soluciones 
+            a necesidades específicas con disposición a solventar los desafios de manera dinámica y creativa que nuestros clientes requieren y necesitan, adaptado a cualquier tipo de negocio.</p>
         </Row>
       
       </Container>
