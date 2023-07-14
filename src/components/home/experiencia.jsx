@@ -12,7 +12,6 @@ function Experiencia (){
         <Container fluid className='section_experiencia bg_experiencia'>
         <Row className='taggin'>
        
-        <img className='animate__animated animate__pulse animate__infinite	infinite' src ={Tagging} alt="Logo"/>
         
 
        
