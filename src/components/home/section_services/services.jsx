@@ -23,7 +23,7 @@ const Services = () => {
       image: imagen1,
       gif: gif1,
       title: 'DEVELOPMENT',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      paragraph: 'Creamos soluciones tecnológicas a la medida, con amplia gama de soluciones, responsives sitios web con integraciones a e-comerce hasta implementando inteligencia artificial para impulsar negocios a niveles superiores adaptando soluciones integrales con CRM customizado.',
       link: 'https://ejemplo.com',
       look: 'style1'
     },
@@ -32,7 +32,7 @@ const Services = () => {
       image: imagen2,
       gif: gif2,
       title: 'SEO',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      paragraph: 'Nuestra estrategia de SEO nos permite alcanzar alto posicionamiento web en los motores de búsqueda, revelando mayor visibilidad y atrayendo a publco objetivo.',
       link: 'https://ejemplo.com',
       look: 'style2'
 
@@ -41,7 +41,7 @@ const Services = () => {
       id: 3,
       image: imagen3,
       title: 'TAGGING',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      paragraph: ' Optimizamos la presencia on-line, desde palabras clave hasta tráfico, para mejorar el rendimiento de tu sitio web y aumentar tu visibilidad.',
       link: 'https://ejemplo.com',
       look: 'style3'
 
@@ -50,7 +50,7 @@ const Services = () => {
       id: 4,
       image: imagen4,
       title: 'IT',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      paragraph: 'Brindamos soluciones con alcance para implementación de servidores, bases de datos, seguridad y asesoría de TI para potenciar negocios en la era digital.',
       link: 'https://ejemplo.com',
       look: 'style4'
 
@@ -59,7 +59,7 @@ const Services = () => {
       id: 5,
       image: imagen5,
       title: 'REPORTING DIGITAL',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      paragraph: 'Analizamos y aprovechamos los datos digitales para mejorar conversiones, métricas y resultados en campañas, impulsando el crecimiento de marcas y activos digitales.',
       link: 'https://ejemplo.com',
       look: 'style5'
 
@@ -68,7 +68,7 @@ const Services = () => {
       id: 6,
       image: imagen6,
       title: 'REPORTING ATL',
-      paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      paragraph: 'Convertimos información compleja en informes clara, versatil y comprensible, brindando una visión completa de medios y competencia de marca.',
       link: 'https://ejemplo.com',
       look: 'style6'
 
