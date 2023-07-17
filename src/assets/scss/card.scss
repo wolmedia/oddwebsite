@@ -18,6 +18,11 @@
     position: relative;
     overflow: hidden;
 
+
+    p{
+    padding: 1px;
+    }
+
     h1{
         font-family: font_body_black;
         font-size: 35px;
@@ -84,11 +89,12 @@
   }
   
   .hidden-content {
+    padding: 1px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 
     p{
-        margin-top: -200px;
+        margin-top: -246px;
         text-align: left;
         padding: 1px;
         font-family: font_body;

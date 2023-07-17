@@ -44,7 +44,7 @@ function Footer (){
         <Col className='direc'>
         <p>
         Dirección:
-        <span>Guatemala, 5 Avenida 5, Guatemala. Edificio <br></br>
+        <span>Guatemala, 5 Avenida 5-55. <br></br>
         Europlaza Torre IV Nivel 18, zona 14.</span>
         </p>
         </Col>
