@@ -1,143 +1,255 @@
-@media (max-width: 450px) {
+@media (max-width: 767px) {
+  .navbar-links,
+  .navbar-language {
+    display: none !important;
+  }
 
-    .navbar-links, .navbar-language{
-        display: none !important;
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mt-50 {
+    margin-top: 30%;
+  }
+
+  .navbar-logo img {
+    width: 100px;
+    margin-left: 0 !important;
+  }
+
+  .bg_experiencia {
+    background-color: #fefefe;
+    height: 40vh;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .Cnt_card {
+    margin-top: -40%;
+  }
+
+  .sphera img {
+    top: 100%;
+  }
+
+  .footer-line {
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .btn_contact button {
+    margin-bottom: 10%;
+  }
+
+  .form-control {
+    padding: 10px;
+  }
+
+  .tel p {
+    text-align: center;
+    margin-top: unset;
+    color: #fefefe;
+    font-family: font_body;
+    margin-top: 2%;
+  }
+
+  .direc p {
+    text-align: center;
+    margin-top: unset;
+    color: #fefefe;
+    font-family: font_body;
+  }
+
+  .footer-sm {
+    max-width: 30%;
+    display: flex;
+    margin: -5%;
+    margin-bottom: 1%;
+    float: none;
+    margin-left: 27%;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-top: 30px;
+    max-width: 20%;
+    margin-left: 39%;
+  }
+
+  .txt_odd_enfoque {
+    margin-top: 5%;
+  }
+
+  .section_copy h2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .Cnt_btn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .hidden-content p {
+    font-size: 12px;
+  }
+
+  .btn_oddsee {
+    margin-top: 15%;
+    padding: 15px 65px;
+  }
+
+  .title_odd_contact {
+    margin-top: 50%;
+  }
+
+  .bullet_contact {
+    margin-top: 210%;
+  }
+
+  button .Next {
+    margin-left: 5%;
+  }
+
+  .carousel {
+    .btn_slide Button {
+      position: relative;
+      width: 240px;
+      height: 70px;
+      margin: 0 10px;
+      border: 5px solid transparent;
     }
 
-    .navbar-logo img{
-       width: 100px;
-        margin-left: 0 !important;
+    .btn_primary {
+      font-family: font_body;
+
+      border-radius: 90px;
+      background: #000;
+      background-clip: padding-box;
+      margin-top: 10% !important;
+    }
+    .btn_primary:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -2px;
+      border-radius: 90px;
+      background: linear-gradient(to right, #f58bfc, #92e8fa);
     }
 
-    .sphera img{
-        margin-top: 100px;
+    img {
+      max-height: 100vh;
+      object-fit: cover;
     }
 
-    .carousel {
+    h1 {
+      width: 400px;
+      letter-spacing: 3px;
+      font-size: 20px;
 
-       
-        .btn_slide Button{
-          position: relative;
-          width: 240px;
-          height: 70px;
-          margin: 0 10px;
-          border: 5px solid transparent;
-        }
-      
-      .btn_primary{
-        font-family: font_body;
-      
-        border-radius: 90px;
-        background: #000;
-        background-clip: padding-box;
+      .dd {
+        width: 400px;
+        letter-spacing: 4px;
+
+        font-size: 17px;
       }
-      .btn_primary:before{
-          content: "";
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          z-index: -1;
-          margin: -2px;
-          border-radius: 90px;
-          background: linear-gradient(to right, #F58BFC, #92E8FA);
-        }
-      
-      
-      
-      img {
-          max-height: 100vh;
-          object-fit: cover;
-        }
-        
-      
-        h1{
-            width: 400px;
-            letter-spacing: 3px;
-          font-size: 20px;
+    }
 
-          .dd{
-            width: 400px;
-            letter-spacing:4px;
+    video {
+      width: 100vw;
+      height: 200vh;
+      max-height: 100vh;
+      object-fit: cover;
+    }
 
-          font-size: 19px;
-          
-            
-          }
-        }
-      
-        video{
-          width: 100vw;
-          height: 200vh;
-          max-height: 100vh;
-          object-fit: cover;
-        }
-      
-        p{
-            width: 400px;
-        margin-top: 10px;
-         font-size: 10px;
-         letter-spacing: 11px;
-         font-family: font_body;
-         text-transform: uppercase;
-      
-        }
-      
-        .title_odd{
-         letter-spacing: 10px;
-         font-family: font_title;
-         color: $odd_TextColorPrimary;
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-        }
-        
-        .thumbs-wrapper{
-          display: none;
-      
-        }
-      
-        .carousel-status{
-          display: none;
-          
-        }
-      
-      }
+    p {
+      width: 400px;
+      margin-top: 10px;
+      font-size: 10px;
+      letter-spacing: 10px;
+      font-family: font_body;
+      text-transform: uppercase;
+    }
 
+    .title_odd {
+      letter-spacing: 10px;
+      font-family: font_title;
+      color: $odd_TextColorPrimary;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 
-       //ENFOQUE//
+    .thumbs-wrapper {
+      display: none;
+    }
 
-       h1 {
-        
-          margin-top: 57px;
-          width: 230px;
-          letter-spacing: 1px;
-          font-size: 26px;
-       }
+    .carousel-status {
+      display: none;
+    }
+  }
 
+  //ENFOQUE//
 
-       .bullet {
-        margin-top: 60px;
-        letter-spacing: 10px;
-        font-family: font_title;
-        font-size: 40px;
-        text-align: center;
-        color: #fefefe;
-      
-      }
+  h1 {
+    margin-top: 5px;
+    width: 230px;
+    letter-spacing: 1px;
+    font-size: 26px;
+  }
 
-      .txt_odd_enfoque p{
-        font-size: 19px;
-      }
+  .bullet {
+    margin-top: 60px;
+    letter-spacing: 10px;
+    font-family: font_title;
+    font-size: 40px;
+    text-align: center;
+    color: #fefefe;
+  }
 
-      .Cnt_btn{
+  .txt_odd_enfoque p {
+    font-size: 15px;
+  }
+  .btn_odd {
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap;
+    margin: 15px;
+    padding: 15px 35px;
+    line-height: 20px;
+    background-color: #1d1f20;
+    margin-top: 20%;
+  }
+}
 
-        margin-top: 10px
-      }
+@media (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
 
-
-
-
+  .mobile {
+    display: none;
+  }
 }

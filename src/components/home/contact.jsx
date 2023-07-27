@@ -56,13 +56,13 @@ function Contacto (){
 
        <Form className='form-container border-gradient-purple' ref={Form} onSubmit={sendEmail}>
         <Row>
-          <Col>
+          <Col md={6}>
             <Form.Group controlId="nombre">
               <Form.Label >Nombre</Form.Label>
-              <input type="text" placeholder ="Ingresa tu nombre" name="nombre" />
+              <Form.Control type="text" placeholder ="Ingresa tu nombre" name="nombre" />
             </Form.Group>
           </Col>
-          <Col>
+          <Col md={6}>
             <Form.Group controlId="apellido">
               <Form.Label>Apellido</Form.Label>
               <Form.Control type="text" placeholder="Ingresa tu apellido " name="apellido"/>
@@ -70,7 +70,7 @@ function Contacto (){
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md={6} lg={12}>
             <Form.Group controlId="email">
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" placeholder="Ingresa tu email" name="email"/>
@@ -78,7 +78,7 @@ function Contacto (){
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md={6} lg={12}>
             <Form.Group controlId="asunto">
               <Form.Label>Asunto</Form.Label>
               <Form.Control type="text" placeholder="Ingresa el asunto" name="asunto" />
@@ -86,7 +86,7 @@ function Contacto (){
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md={6} lg={12}>
             <Form.Group controlId="mensaje">
               <Form.Label>Mensaje</Form.Label>
               <Form.Control as="textarea" rows={4} placeholder="Ingresa tu mensaje" name="mensaje" />

@@ -1,4 +1,4 @@
-import { Container, Row, Col  } from 'react-bootstrap';
+import { Container, Row, Col,  } from 'react-bootstrap';
 import LogoFooter from '../../assets/img/footer/isotipo_odd.svg';
 import fb from '../../assets/img/footer/fb.svg';
 import IG from '../../assets/img/footer/ig.svg';
@@ -15,12 +15,12 @@ function Footer (){
         <Container  className='section_footer bg_footer'>
        
        <Row>
-       <Col>
+       <Col md={6}>
        <div className="footer-logo">
        <img src ={LogoFooter} alt="Logo"/>
        </div>
        </Col>
-       <Col>
+       <Col md={6}>
        <div className="footer-sm">
        <img src ={fb} alt="Logo"/>
         <br></br>
@@ -32,7 +32,7 @@ function Footer (){
        </Col>
        </Row>
        <Row>
-        <Col>
+        <Col md={6}>
         <div className="footer-line">
        <img src ={Line} alt="Logo"/>
        </div>
@@ -41,7 +41,7 @@ function Footer (){
        </Row>
        <Row >
         
-        <Col className='direc'>
+        <Col md={6} className='direc'>
         <p>
         Dirección:
         <span>Guatemala, 5 Avenida 5-55. <br></br>
@@ -50,7 +50,7 @@ function Footer (){
         </Col>
         
 
-        <Col className='tel'>
+        <Col md={6} className='tel'>
         <p>
         
         Teléfono: (+502) <span>2382 2236 <br></br>

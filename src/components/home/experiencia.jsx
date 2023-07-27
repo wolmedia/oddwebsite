@@ -35,9 +35,9 @@ function Experiencia (){
          </Col>
 
        </Row>
-       <Row className='txt_odd_experiencia'>
+       {/* <Row className='txt_odd_experiencia'>
          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.s</p>
-       </Row>
+       </Row> */}
      
      </Container>
 
