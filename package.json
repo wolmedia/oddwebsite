@@ -19,6 +19,7 @@
     "react-chatbot-kit": "^2.1.2",
     "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "sass": "^1.62.1",
     "sweetalert": "^2.1.2",

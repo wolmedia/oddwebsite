@@ -1,4 +1,7 @@
 
+
+import React, { Fragment } from "react";
+
 import 'animate.css';
 import './assets/main.css'
 import '../src/index.css'
@@ -15,20 +18,21 @@ import Btnsee from './components/home/btn/_btn';
 import Contacto from './components/home/contact';
 import Footer from './components/home/footer';
 import Copy from './components/home/copy';
+import Development from './components/pages/development'
 
 
-import Chatbot from "react-chatbot-kit";
-import config from "./config";
-import MessageParser from "./MessageParser";
-import ActionProvider from "./ActionProvider";
+// import Chatbot from "react-chatbot-kit";
+// import config from "./config";
+// import MessageParser from "./MessageParser";
+// import ActionProvider from "./ActionProvider";
 
 
 
 
 
-function App() {
+function Main() {
   return (
-    <>
+    <Fragment>
     <Navbarodd /> 
     <Slide />
     <Enfoque />
@@ -40,20 +44,23 @@ function App() {
     <Contacto />
     <Footer />
     <Copy />
+
+    <Development />
   
     {/* <Chatbot 
     config={config}
     messageParser={MessageParser}
     actionProvider={ActionProvider}
     /> */}
-    
-º
+    </Fragment>
 
-    
-    </>
+   
     
     
   );
 }
 
-export default App;
+export default Main;
+
+
+
