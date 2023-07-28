@@ -24,7 +24,7 @@ const Services = () => {
       gif: gif1,
       title: 'DEVELOPMENT',
       paragraph: 'Creamos soluciones tecnológicas a la medida, con amplia gama de soluciones, responsives sitios web con integraciones a e-comerce hasta implementando inteligencia artificial para impulsar negocios a niveles superiores adaptando soluciones integrales con CRM customizado.',
-      link: 'https://ejemplo.com',
+      link: '/Development',
       look: 'style1'
     },
     {

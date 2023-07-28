@@ -1,7 +1,7 @@
 
 import React from 'react';
 import LogoNavgar from '../../assets/img/footer/isotipo_odd.svg';
-import { Link } from "react-router-dom";
+
 
 
 
