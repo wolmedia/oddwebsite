@@ -1,6 +1,28 @@
 .Dev_Banner{
     background-image: url(../img/Dev/bannerdev.webp);
-    height: 100vh;
+    height: 786px;
     width: 100vw;
     background-repeat: no-repeat;
 }
+
+.sphera_dev img {
+    max-width: 180px;
+    display: block;
+    margin: auto;
+    margin-top: 700px;
+    
+       
+    }
+
+    .Section1_Dev{
+        background-color: #fefefe;
+        height: 700px;
+
+        p{  
+            text-align: center;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+            max-width: 70ch;
+        }
+    }
