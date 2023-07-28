@@ -6,7 +6,7 @@ import Banner from '../../components/Development/banner'
 function PageDevelopment (){
     return(
 
-    <Container className='Cnt_btn'>
+    <Container  fluid className='Cnt_btn'>
       <Banner />
       </Container>
 

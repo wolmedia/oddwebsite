@@ -1,6 +1,8 @@
 
 import React from 'react';
 import LogoNavgar from '../../assets/img/footer/isotipo_odd.svg';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -10,7 +12,9 @@ function Navbar() {
     <nav>
       
       <div className="navbar-logo">
+      <a href="/">
       <img src ={LogoNavgar} alt="Logo"/>
+        </a>
 
       </div>
       
@@ -18,7 +22,7 @@ function Navbar() {
       <ul className="navbar-links">
         <li><a  href="/quienes-somos">Quienes somos</a></li>
         <li><a href="/experiencia">Experiencia</a></li>
-        <li><a href="/">Soluciones</a>
+        <li><a href="/Development">Soluciones</a>
         </li>
         <li><a href="/contactos">Contactos</a></li>
       </ul>
