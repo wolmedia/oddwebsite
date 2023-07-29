@@ -8,6 +8,15 @@ import ML from '../../assets/img/Dev/machinelearning.webp'
 import Ar from '../../assets/img/Dev/ar.webp'
 import Webmaster from '../../assets/img/Dev/webmaster.webp'
 import Apps from '../../assets/img/Dev/webmaster.webp'
+import Chatbot from '../../assets/img/Dev/chatbot.webp'
+import IA from '../../assets/img/Dev/ai.webp'
+import Vr from '../../assets/img/Dev/rv.webp'
+import Minijuegos from '../../assets/img/Dev/juegos.webp'
+
+
+
+
+
 
 
 
@@ -69,16 +78,16 @@ function Solucionesdev(){
 
     <Row lg={6} className=' Cnt_solutions' >
         <Col>
-        <img src={Crm} alt="Circulo" />
+        <img src={Chatbot} alt="Circulo" />
         </ Col>
         <Col>
-        <img src={Website} alt="Circulo" />
+        <img src={IA} alt="Circulo" />
         </ Col>
         <Col>
-        <img src={Landing} alt="Circulo" />
+        <img src={Vr} alt="Circulo" />
         </ Col>
         <Col>
-        <img src={Ecommerce} alt="Circulo" />
+        <img src={Minijuegos} alt="Circulo" />
         </ Col>
     </Row>
       </Container>
