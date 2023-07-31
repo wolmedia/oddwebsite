@@ -6,6 +6,7 @@ import Traffic from '../../assets/img/Seo/trafico.webp';
 import LinkB from '../../assets/img/Seo/linkbuilding.webp';
 import Performance from '../../assets/img/Seo/performance.webp';
 import Optimization from '../../assets/img/Seo/optimizacion.webp';
+import 'animate.css';
 
 
 
@@ -16,7 +17,7 @@ import Optimization from '../../assets/img/Seo/optimizacion.webp';
 function SolucionesSeo(){
     return(
 
-    <Container fluid className='Section2_Dev' >
+    <Container fluid className='Section2_Seo'  >
       <Row>
           <Col>
           <div className='title_odd_enfoque'>
@@ -30,7 +31,7 @@ function SolucionesSeo(){
         </p>
       </Row>
 
-    <Row lg={6} className=' Cnt_solutions' >
+    <Row lg={6} className=' Cnt_solutions animate__animated animate__backInDown animate__slower' >
         <Col>
         <img src={Keyword} alt="Circulo" />
         </ Col>
@@ -45,7 +46,7 @@ function SolucionesSeo(){
         </ Col>
     </Row>
 
-    <Row lg={6} className=' Cnt_solutions' >
+    <Row lg={6} className=' Cnt_solutions animate__animated animate__backInDown animate__slower ' >
         <Col>
         
         </ Col>
