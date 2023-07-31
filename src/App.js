@@ -13,6 +13,7 @@ import Inicio from './components/pages/Inicio';
 import Development from './components/pages/development';
 import Seo from './components/pages/seo';
 import Tagging from './components/pages/tagging';
+import Atl from './components/pages/atl'
 
 
 
@@ -25,6 +26,7 @@ function root() {
     <BrowserRouter basename="/">
 
     <Routes>
+    <Route path="/atl" Component={Atl} />
     <Route path="/tagging" Component={Tagging} />
     <Route path="/Seo" Component={Seo} />
     <Route path="/Development" Component={Development} />
