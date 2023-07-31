@@ -11,7 +11,7 @@ import './assets/scss/style.scss';
 import Layout from "./components/Layout";
 import Inicio from './components/pages/Inicio';
 import Development from './components/pages/development';
-import Seo from './components/pages/Seo';
+import Seo from './components/pages/seo';
 
 
 
