@@ -13,7 +13,7 @@ import Optimization from '../../assets/img/Seo/optimizacion.webp';
 
 
 
-function Solucionesdev(){
+function SolucionesSeo(){
     return(
 
     <Container fluid className='Section2_Dev' >
@@ -71,4 +71,4 @@ function Solucionesdev(){
     );
 }
 
-export default Solucionesdev;
+export default SolucionesSeo;
