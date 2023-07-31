@@ -4,6 +4,7 @@ import Dsection1 from '../../components/Development/Dsection1'
 import Solucionesdev from '../Development/SolucionesDev';
 import Footer from '../../components/home/footer'
 import Dsection2 from '../Development/Dsection2';
+import SliderDev from '../Development/Sliderdev';
 
 
 
@@ -16,6 +17,7 @@ function PageDevelopment (){
       <Dsection1 />
       <Solucionesdev />
       <Dsection2 />
+      <SliderDev />
       <Footer />
       
       </Container>

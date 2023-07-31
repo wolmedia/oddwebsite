@@ -110,6 +110,7 @@
 .Section3_Dev{
     background-color: #0d0d0d;
     margin-top: 30px;
+    height: 550px;
     
 
 
@@ -129,3 +130,42 @@
             margin: auto;
         }
 }
+
+.Section4_Dev{
+    background-color: #fefefe;
+    margin-top: -150px;
+    height: 800px;
+    
+
+    img{
+        padding-top: 100px;
+        max-width: 30%;
+        display: block;
+        margin: auto;
+        
+    }
+
+    p{
+        text-align: center;
+        display: block;
+        margin: auto;
+        padding-top: 250px;
+        max-width: 70ch;
+    }
+
+    .carousel .control-next.control-arrow:before{
+        content: url(../img/Dev/nextarrow.svg);
+        background: none;
+    }
+
+    .carousel .control-prev.control-arrow:before{
+        content: url(../img/Dev/prevarrow.svg);
+        background: none;
+    }
+
+    .carousel .slider-wrapper{
+        width: 80%;
+    }
+
+}
+

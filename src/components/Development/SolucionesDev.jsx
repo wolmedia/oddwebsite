@@ -14,21 +14,6 @@ import Vr from '../../assets/img/Dev/rv.webp'
 import Minijuegos from '../../assets/img/Dev/juegos.webp'
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function Solucionesdev(){
     return(
 
