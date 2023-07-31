@@ -23,6 +23,7 @@ function Navbar() {
         <li><a  href="/quienes-somos">Quienes somos</a></li>
         <li><a href="/experiencia">Experiencia</a></li>
         <li><a href="/Development">Soluciones</a>
+        
         </li>
         <li><a href="/contactos">Contactos</a></li>
       </ul>

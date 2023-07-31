@@ -156,12 +156,21 @@
     .carousel .control-next.control-arrow:before{
         content: url(../img/Dev/nextarrow.svg);
         background: none;
+        
+    }
+
+    .carousel.carousel-slider .control-arrow:hover{
+        content: url(../img/Dev/nextarrow.svg);
+        background: none;
+        zoom: 1.1;
     }
 
     .carousel .control-prev.control-arrow:before{
         content: url(../img/Dev/prevarrow.svg);
         background: none;
     }
+
+    
 
     .carousel .slider-wrapper{
         width: 80%;
