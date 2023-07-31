@@ -9,8 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/scss/style.scss';
 
 import Layout from "./components/Layout";
-import Inicio from './components/pages/Inicio'
-import Development from './components/pages/development'
+import Inicio from './components/pages/Inicio';
+import Development from './components/pages/development';
+import Seo from './components/pages/Seo';
+
 
 
 
@@ -20,6 +22,7 @@ function root() {
     <BrowserRouter basename="/">
 
     <Routes>
+    <Route path="/Seo" Component={Seo} />
     <Route path="/Development" Component={Development} />
     <Route path="/" Component={Inicio} />
 

@@ -1,7 +1,8 @@
 
 import React from 'react';
 import LogoNavgar from '../../assets/img/footer/isotipo_odd.svg';
-
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 
@@ -9,7 +10,7 @@ import LogoNavgar from '../../assets/img/footer/isotipo_odd.svg';
 
 function Navbar() {
   return (
-    <nav>
+    <Nav>
       
       <div className="navbar-logo">
       <a href="/">
@@ -22,21 +23,29 @@ function Navbar() {
       <ul className="navbar-links">
         <li><a  href="/quienes-somos">Quienes somos</a></li>
         <li><a href="/experiencia">Experiencia</a></li>
-        <li><a href="/Development">Soluciones</a>
+        {/* <li><a href="/Development">Soluciones</a>
         
-        </li>
+        </li> */}
+         <NavDropdown title="soluciones" className="navbar-language">
+        
+        <NavDropdown.Item href="/development"> development</NavDropdown.Item>
+        <NavDropdown.Item href="/seo">seo</NavDropdown.Item>
+      
+    </NavDropdown>
         <li><a href="/contactos">Contactos</a></li>
       </ul>
       
 
-      <div className="navbar-language">
-        <select>
-          <option value="en">English</option>
-          <option value="es">Español</option>
-        </select>
-      </div>
+      <NavDropdown title="español" className="navbar-language">
+        
+          <NavDropdown.Item value="en">English</NavDropdown.Item>
+          <NavDropdown.Item value="es">Español</NavDropdown.Item>
+        
+      </NavDropdown>
+
     
-    </nav>
+    
+    </Nav>
   );
 }
 

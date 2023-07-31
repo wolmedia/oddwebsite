@@ -1,4 +1,5 @@
-nav {   
+Nav {  
+
 top: 0px;
 height: 50px;
 width: 100vw;
@@ -17,6 +18,7 @@ position: absolute;
 width: 30%;
 height: auto;
 margin-left: 100px;
+margin-top: 10px;
 }
 
 .navbar-links {
@@ -58,4 +60,28 @@ padding: 5px;
     background-color: red;
 font-family: font_title_v2;
 
+}
+
+.navbar-language{
+    padding: 15px;
+    font-family: font_title_v2;
+}
+
+.nav-link{
+    background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.nav-link:focus, .nav-link:hover{
+    background: linear-gradient(45deg,  #F58BFC,#92E8FA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.dropdown-menu.show{
+    background: linear-gradient(45deg,  #f48bfc32,#92e9fa73);
+    filter: blur(3.2);
 }
