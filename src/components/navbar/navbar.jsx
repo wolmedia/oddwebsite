@@ -10,7 +10,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navbar() {
   return (
-    <Nav>
+    <Nav className='Navbar_odd'>
       
       <div className="navbar-logo">
       <a href="/">
@@ -21,8 +21,8 @@ function Navbar() {
       
       
       <ul className="navbar-links">
-        <li><a  href="/quienes-somos">Quienes somos</a></li>
-        <li><a href="/experiencia">Experiencia</a></li>
+        <li><a  href="/">Quienes somos</a></li>
+        <li><a href="/">Experiencia</a></li>
         {/* <li><a href="/Development">Soluciones</a>
         
         </li> */}
@@ -30,9 +30,16 @@ function Navbar() {
         
         <NavDropdown.Item href="/development"> development</NavDropdown.Item>
         <NavDropdown.Item href="/seo">seo</NavDropdown.Item>
+        <NavDropdown.Item href="/tagging">tagging</NavDropdown.Item>
+        <NavDropdown.Item href="/atl">atl</NavDropdown.Item>
+        <NavDropdown.Item href="/data-digital">data digital</NavDropdown.Item>
+        <NavDropdown.Item href="/ti">ti</NavDropdown.Item>
+
+
+
       
     </NavDropdown>
-        <li><a href="/contactos">Contactos</a></li>
+        <li><a href="/">Contactos</a></li>
       </ul>
       
 
