@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import BannerTagging from '../../components/Tagging/banner'
-import Dsection1 from '../../components/Development/Dsection1'
+import TagSection from '../../components/Tagging/TagSection'
 import Solucionestagging from '../Tagging/solucionestagging'
 import Footer from '../../components/home/footer'
 import Dsection2 from '../Development/Dsection2';
@@ -14,7 +14,7 @@ function PageTagging (){
 
     <Container  fluid className='Cnt_btn'>
       <BannerTagging/>
-      <Dsection1 />
+      <TagSection />
       <Solucionestagging />
       <Dsection2 />
       <SliderDev />

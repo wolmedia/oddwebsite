@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Banner from '../../components/Atl/banner'
-import Dsection1 from '../../components/Development/Dsection1'
+import AtlSection from '../../components/Atl/AtlSection'
 import Solucionesdev from '../Development/SolucionesDev';
 import Footer from '../../components/home/footer'
 import Dsection2 from '../Development/Dsection2';
@@ -14,7 +14,7 @@ function PageAtl (){
 
     <Container  fluid className='Cnt_btn'>
       <Banner />
-      <Dsection1 />
+      <AtlSection />
       <Solucionesdev />
       <Dsection2 />
       <SliderDev />
