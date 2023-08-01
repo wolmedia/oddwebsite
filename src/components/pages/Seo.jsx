@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import BannerSeo from '../Seo/banner'
-import Dsection1 from '../Development/Dsection1'
+import SeoSection from '../Seo/SectionSeo';
 import SolucionesSeo from '../Seo/SolucionesSeo';
 import Footer from '../home/footer'
 import Dsection2 from '../Development/Dsection2';
@@ -14,7 +14,7 @@ function Seo (){
 
     <Container  fluid >
       <BannerSeo />
-      <Dsection1 />
+      <SeoSection />
       <SolucionesSeo />
       <Dsection2 />
       <SliderDev />

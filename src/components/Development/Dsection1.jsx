@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import {Row, Col} from 'react-bootstrap';
-import ImageDev from '../../assets/img/Dev/img.png'
+import ImageDev from '../../assets/img/Dev/dev.webp'
 
 
 
@@ -26,9 +26,9 @@ function Dsection1(){
         
         </Col>
         <Col>
-        <h1>titular Dev</h1>
+      
         <p className='Dev_p2'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        En la Unidad de DevOps, nos enorgullecemos de ser el equipo de desarrollo creativo y versátil que transforma tus ideas en soluciones tecnológicas innovadoras. Desde el desarrollo de páginas web y landing pages hasta la implementación de chatbots, inteligencia artificial y realidad virtual, nuestro equipo de desarrolladores full stack trabaja de manera ágil y efectiva para brindarte productos a la medida de tus necesidades. Nuestra pasión por la innovación y la tecnología nos lleva a explorar constantemente nuevas herramientas y técnicas para ofrecerte soluciones a la vanguardia. Ya sea que necesite un comercio electrónico personalizado, un CRM o una aplicación móvil, estamos listos para dar vida a sus proyectos y llevar a cabo su negocio al siguiente nivel.
         </p>
         </Col>
 

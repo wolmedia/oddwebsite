@@ -27,7 +27,8 @@ function Solucionesdev(){
       </Row>
       <Row>
         <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Conoce las diferentes soluciones 
+        que colocamos a tu disposición 
         </p>
       </Row>
 
