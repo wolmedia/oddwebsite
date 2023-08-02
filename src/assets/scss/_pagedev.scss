@@ -159,6 +159,7 @@
     .carousel .control-next.control-arrow:before{
         content: url(../img/Dev/nextarrow.svg);
         background: none;
+        margin-right: 160px;
         
     }
 
@@ -166,6 +167,7 @@
         content: url(../img/Dev/nextarrow.svg);
         background: none;
         zoom: 1.1;
+        
     }
 
     .carousel .control-prev.control-arrow:before{
@@ -181,3 +183,6 @@
 
 }
 
+.carousel.carousel-slider .control-arrow{
+    margin-left: 160px;
+}

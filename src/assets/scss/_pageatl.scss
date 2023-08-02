@@ -15,26 +15,10 @@
        
     }
 
-    .Section1_Dev{
+   
+    .Section_Atl{
         background-color: #fefefe;
-        height: 700px;
-        
-       
-
-        p{  
-            text-align: center;
-            display: block;
-            margin: auto;
-            padding-top: 100px;
-            max-width: 70ch;
-        }
-
-        .img_Dev img
-        {
-            padding-top: 50px;
-            display: block;
-            margin: auto;
-        }
+        height: 490px;
 
         h1{
             padding-top: 80px;
@@ -46,16 +30,35 @@
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;  
-            text-align: left;
+            text-align: center;
             margin: 0;
-
         }
 
-        .Dev_p2{
-         text-align: justify;
-         max-width: 50ch;
-         margin: 0;
+        .bullet_dev{
+            color: #0d0d0d;
+        }
 
+        p{
+            text-align: center;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+            max-width: 70ch;
+        }
+
+        .Cnt_solutions{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            column-gap: 10px;
+            margin-top: 40px;
+        }
+
+        img{
+            max-width: 90%;
+            margin: auto;
+            display: block;
+            
         }
 
     }

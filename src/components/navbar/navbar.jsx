@@ -33,7 +33,7 @@ function Navbar() {
         <NavDropdown.Item href="/tagging">tagging</NavDropdown.Item>
         <NavDropdown.Item href="/atl">atl</NavDropdown.Item>
         <NavDropdown.Item href="/data-digital">data digital</NavDropdown.Item>
-        <NavDropdown.Item href="/ti">ti</NavDropdown.Item>
+        <NavDropdown.Item href="/informatica">ti</NavDropdown.Item>
 
 
 

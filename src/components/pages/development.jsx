@@ -5,6 +5,7 @@ import Solucionesdev from '../Development/SolucionesDev';
 import Footer from '../../components/home/footer'
 import Dsection2 from '../Development/Dsection2';
 import SliderDev from '../Development/Sliderdev';
+import Copy from '../../components/home/copy'
 
 
 
@@ -19,6 +20,8 @@ function PageDevelopment (){
       <Dsection2 />
       <SliderDev />
       <Footer />
+      <Copy />
+     
       
       </Container>
 

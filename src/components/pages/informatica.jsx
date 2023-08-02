@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import BannerSeo from '../Seo/banner'
-import SeoSection from '../Seo/SectionSeo';
-import SolucionesSeo from '../Seo/SolucionesSeo';
+import Banner from '../Informatica/banner'
+import SecInformatica from '../Informatica/SecInformatica'
+import SolucionesIt from '../Informatica/SolucionesIt';
 import Footer from '../home/footer'
 import Dsection2 from '../Development/Dsection2';
 import SliderDev from '../Development/Sliderdev';
@@ -11,13 +11,13 @@ import Copy from '../../components/home/copy'
 
 
 
-function Seo (){
+function PageInformatica (){
     return(
 
-    <Container  fluid >
-      <BannerSeo />
-      <SeoSection />
-      <SolucionesSeo />
+    <Container  fluid className='Cnt_btn'>
+      <Banner />
+      <SecInformatica />
+      <SolucionesIt />
       <Dsection2 />
       <SliderDev />
       <Footer />
@@ -33,4 +33,4 @@ function Seo (){
     );
 }
 
-export default Seo;
+export default PageInformatica;
