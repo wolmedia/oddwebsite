@@ -21,11 +21,11 @@ function AtlSection(){
       </Row>
       
       <Row>
-        <Col className='img_Dev'>
+        <Col xs={12} md={6} className='img_Dev'>
         <img src={ImgAtl} alt="Circulo" />
         
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
       
         <p className='Dev_p2'>
         Nuestra Unidad de ATL Data Manage se especializa en el análisis de sistemas ortodoxos y cliente-servidor, requiere una visión completa de sus medios y competencia. A través de reportes y dashboards personalizados, te ofrecemos una visión clara y detallada del rendimiento de tus anuncios en medios tradicionales. También analizamos la competencia y tu categoría en un periodo determinado para que puedas tomar decisiones informadas y mejorar tu posicionamiento en el mercado. Nuestro enfoque en la visualización y comprensión de la información te permite acceder a datos estratégicos y relevantes para tu negocio, lo que te ayudará a una ventaja competitiva y alcanzar tus objetivos comerciales.

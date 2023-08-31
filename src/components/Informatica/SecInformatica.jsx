@@ -21,11 +21,11 @@ function InformaticaSection(){
       </Row>
       
       <Row>
-        <Col className='img_Dev'>
+        <Col xs={12} md={6} className='img_Dev'>
         <img src={ImgInformatica} alt="Circulo" />
         
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
       
         <p className='Dev_p2'>
         Nuestra Unidad de TI es el pilar fundamental que impulsa el desarrollo tecnológico en todas las áreas de la empresa. Contamos con un equipo altamente capacitado en infraestructura, seguridad y servicios web para brindarte soluciones a medida que potencian tu negocio en la era digital. Desde la implementación de servidores cloud hasta la gestión de bases de datos y la seguridad de tu información, nos enfocamos en proporcionarte una infraestructura sólida y segura para asegurar el correcto funcionamiento y la confiabilidad de tus sistemas. Además, ofrecemos asesoramiento y soporte técnico para garantizar que su empresa esté siempre a la vanguardia tecnológica y pueda enfrentar cualquier desafío con éxito.

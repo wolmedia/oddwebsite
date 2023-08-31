@@ -21,11 +21,11 @@ function Dsection1(){
       </Row>
       
       <Row>
-        <Col className='img_Dev'>
+        <Col xs={12} md={6} className='img_Dev'>
         <img src={ImageDev} alt="Circulo" />
         
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
       
         <p className='Dev_p2'>
         En la Unidad de DevOps, nos enorgullecemos de ser el equipo de desarrollo creativo y versátil que transforma tus ideas en soluciones tecnológicas innovadoras. Desde el desarrollo de páginas web y landing pages hasta la implementación de chatbots, inteligencia artificial y realidad virtual, nuestro equipo de desarrolladores full stack trabaja de manera ágil y efectiva para brindarte productos a la medida de tus necesidades. Nuestra pasión por la innovación y la tecnología nos lleva a explorar constantemente nuevas herramientas y técnicas para ofrecerte soluciones a la vanguardia. Ya sea que necesite un comercio electrónico personalizado, un CRM o una aplicación móvil, estamos listos para dar vida a sus proyectos y llevar a cabo su negocio al siguiente nivel.

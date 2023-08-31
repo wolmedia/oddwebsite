@@ -1,54 +1,69 @@
-.Informatica_banner{
-    background-image: url(../img/Informatica/bannerti.webp);
-    height: 786px;
-    width: 100vw;
-    background-repeat: no-repeat;
-    margin-top: -60px;
+.Informatica_banner {
+  background-image: url(../img/Informatica/bannerti.webp);
+  height: 786px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  margin-top: -60px;
 }
 
-.SectionInformatica{
-    background-color: #fefefe;
-    height: 750px;
+.SectionInformatica {
+  background-color: #fefefe;
+  height: 750px;
 
-    h1{
-        padding-top: 80px;
-        letter-spacing: 10px;
-        font-family: font_title;
-        font-size: 40px;
-        text-align: center;
-        background: linear-gradient(351deg,  #F58BFC,#92E8FA);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;  
-        text-align: center;
-        margin: 0;
-    }
+  h1 {
+    padding-top: 80px;
+    letter-spacing: 10px;
+    font-family: font_title;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(351deg, #f58bfc, #92e8fa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin: 0;
+  }
 
-    .bullet_dev{
-        color: #0d0d0d;
-    }
+  .bullet_dev {
+    color: #0d0d0d;
+  }
 
-    p{
-        text-align: center;
-        display: block;
-        margin: auto;
-        padding-top: 100px;
-        max-width: 70ch;
-    }
+  p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    max-width: 70ch;
+  }
 
-    .Cnt_solutions{
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        column-gap: 10px;
-        margin-top: 40px;
-    }
+  .Cnt_solutions {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 40px;
+  }
 
-    img{
-        max-width: 90%;
-        margin: auto;
-        display: block;
-        
-    }
+  img {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .Informatica_banner {
+    background-image: url("../img/Informatica/banner-ti.webp");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+  }
+  .SectionInformatica h1{
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  .SectionInformatica .Cnt_solutions{
+    column-gap: 0px;
+  }
 }

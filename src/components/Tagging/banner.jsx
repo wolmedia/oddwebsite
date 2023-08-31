@@ -9,7 +9,7 @@ function BannerTagging (){
       <div>
         <div>
         <Row className='sphera_dev'>
-         <img src={Circ} alt="Circulo" />
+         <img className='sphera_dev_mobile' src={Circ} alt="Circulo" />
           </Row> 
         </div>
       </div>
