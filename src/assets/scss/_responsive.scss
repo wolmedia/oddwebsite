@@ -1,26 +1,35 @@
-.mobile{
+.mobile {
   display: none;
 }
 
-.desktop{
+.desktop {
   display: block;
 }
 
 @media (max-width: 767px) {
-  .desktop{
+  .carousel.carousel-slider .control-arrow {
+    margin-top: 90% !important;
+  }
+  .carousel.carousel-slider {
+    height: auto;
+  }
+  .Section4_Dev img {
+    max-width: 50% !important;
+  }
+  .desktop {
     display: none;
   }
-  .mobile{
+  .mobile {
     display: block;
   }
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     background-image: url("../img/Svg/toggler-mobile.svg");
   }
-  .navbar-toggler{
+  .navbar-toggler {
     padding: 0px !important;
     min-height: 70px;
   }
-  .navbar-collapse{
+  .navbar-collapse {
     background-color: #0d0d0d;
     z-index: 1;
   }
