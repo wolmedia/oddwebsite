@@ -6,7 +6,7 @@
   display: block;
 }
 
-.desktop-flex{
+.desktop-flex {
   display: flex;
 }
 
@@ -366,7 +366,10 @@
   nav {
     height: auto;
   }
-  .desktop-flex{
+  .desktop-flex {
+    display: none;
+  }
+  .img_rectangle.col {
     display: none;
   }
 }
