@@ -25,7 +25,7 @@ const Carouseldev = () => {
           <Row>
             <Col>
               <div className="title_odd_enfoque">
-                <h1>
+                <h1 className="title-clientes">
                   {" "}
                   <span className="bullet_dev">•</span> Nuestros Clientes{" "}
                   <span className="bullet_dev">•</span>

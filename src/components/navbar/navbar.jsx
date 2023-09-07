@@ -11,7 +11,7 @@ function Navbar() {
       <Container>
         <NavbarGeneral.Brand href="#home">
           <a href="/">
-            <img style={{ width: "30%" }} src={LogoNavgar} alt="Logo" />
+            <img  className="logo-navbar" src={LogoNavgar} alt="Logo" />
           </a>
         </NavbarGeneral.Brand>
         <NavbarGeneral.Toggle aria-controls="responsive-navbar-nav" />

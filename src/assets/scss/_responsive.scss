@@ -6,7 +6,14 @@
   display: block;
 }
 
+.logo-navbar {
+  width: 40%;
+}
+
 @media (max-width: 767px) {
+  .logo-navbar {
+    width: 5rem;
+  }
   .carousel.carousel-slider .control-arrow {
     margin-top: 90% !important;
   }
@@ -27,7 +34,6 @@
   }
   .navbar-toggler {
     padding: 0px !important;
-    min-height: 70px;
   }
   .navbar-collapse {
     background-color: #0d0d0d;
@@ -191,7 +197,7 @@
     }
 
     img {
-      max-height: 100vh;
+      width: 50% !important;
       object-fit: cover;
     }
 
@@ -243,10 +249,27 @@
     }
   }
 
+  .o-mt {
+    margin-top: -50%;
+  }
+
+  .title-clientes {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10%;
+  }
+
   //ENFOQUE//
 
-  h1 {
+  .contacto {
     margin-top: 5px;
+    width: 230px;
+    letter-spacing: 1px;
+    font-size: 26px;
+  }
+
+  .enfoque-title {
+    margin-top: 30%;
     width: 230px;
     letter-spacing: 1px;
     font-size: 26px;
@@ -274,6 +297,70 @@
     line-height: 20px;
     background-color: #1d1f20;
     margin-top: 20%;
+  }
+  .button-mobile-principal {
+    border-radius: 96px;
+    border: 3px solid #f58bfc;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 16px !important;
+  }
+  .title-mobile-principal {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 3.2px;
+    background: linear-gradient(91deg, #f58bfc 5.82%, #92e8fa 99.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: font_title;
+  }
+  .paragraph-mobile-principal {
+    color: #fff !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: 5px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    min-height: 200px !important;
+    margin-top: 10% !important;
+  }
+  .mt-10 {
+    margin-top: 10rem !important;
+  }
+  .carousel-indicators {
+    bottom: -10%;
+  }
+  .section_contact {
+    margin-top: 200px;
+  }
+  .mobile-gif1:hover {
+    content: url("../img/Gif/dev.gif");
+    width: 50% !important;
+  }
+  .text-exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+  .titulo-experencia {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-family: font_title;
+    background: linear-gradient(91deg, #f55eff 5.85%, #4ed5f1 90.17%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  nav {
+    height: auto;
   }
 }
 

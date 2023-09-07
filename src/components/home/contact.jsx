@@ -41,7 +41,7 @@ function Contacto (){
          </Col>
          <Col>
          <div className='title_odd_contact'>
-           <h1>Contacto</h1>
+           <h1 className='contacto'>Contacto</h1>
            
            </div>
          </Col>
