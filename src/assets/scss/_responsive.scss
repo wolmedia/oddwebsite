@@ -6,6 +6,10 @@
   display: block;
 }
 
+.desktop-flex{
+  display: flex;
+}
+
 .logo-navbar {
   width: 40%;
 }
@@ -362,14 +366,17 @@
   nav {
     height: auto;
   }
-}
-
-@media (min-width: 768px) {
-  .desktop {
-    display: block;
-  }
-
-  .mobile {
+  .desktop-flex{
     display: none;
   }
 }
+
+// @media (min-width: 768px) {
+//   .desktop {
+//     display: block;
+//   }
+
+//   .mobile {
+//     display: none;
+//   }
+// }
