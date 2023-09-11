@@ -21,13 +21,13 @@ function TagSection(){
       </Row>
       
       <Row>
-        <Col className='img_Dev'>
+        <Col xs={12} md={6} className='img_Dev'>
         <img src={ImageTag} alt="Circulo" />
         
         </Col>
         <Col>
       
-        <p className='Dev_p2'>
+        <p xs={12} md={6} className='Dev_p2'>
         En la Unidad de Taggin, nuestro enfoque es garantizar que tu presencia en línea esté optimizada y que puedas obtener el máximo rendimiento de tus activos digitales. Nuestro equipo de especialistas verifica y audita tus sitios web para asegurar que estén funcionando correctamente y siguiendo las mejores prácticas. Desde la optimización de palabras clave y tráfico hasta el linkbuilding y el rendimiento general del sitio, nos aseguramos de que cada aspecto de tu presencia en línea esté en perfectas condiciones. Con nuestro enfoque en la calidad y la eficiencia, te proporcionamos las herramientas necesarias para maximizar el impacto de tu presencia en línea y lograr tus objetivos comerciales.
         </p>
         </Col>

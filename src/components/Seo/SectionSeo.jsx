@@ -22,11 +22,11 @@ atrayendo a tu objetivo público”
       </Row>
       
       <Row>
-        <Col className='img_Dev'>
+        <Col xs={12} md={6} className='img_Dev'>
         <img src={ImgSeo} alt="Circulo" />
         
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
       
         <p className='Dev_p2'>
         Nuestra Unidad de SEO se enfoca en mejorar la visibilidad y el posicionamiento de su empresa en los motores de búsqueda y plataformas digitales. Nuestro equipo de especialistas en SEO trabaja de manera proactiva para optimizar tu contenido, estructura y estrategias online, aumentando tu tráfico orgánico y descubriendo resultados duraderos. Desde la investigación de palabras clave y la optimización de contenido hasta la creación de enlaces y la mejora del rendimiento general del sitio, nos esforzamos por asegurar que tu empresa se destaque en línea. Con nuestro enfoque en la eficacia y el cumplimiento de las últimas tendencias de SEO, estamos listos para ayudarte a alcanzar un mayor reconocimiento de marca, aumentar tus conversiones y crecer en un mercado digital competitivo.

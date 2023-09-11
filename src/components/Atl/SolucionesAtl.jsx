@@ -1,60 +1,58 @@
-import Container from 'react-bootstrap/Container';
-import {Row, Col} from 'react-bootstrap';
-import FlashReport from '../../assets/img/Atl/flashreport.webp'
-import ReporteCompe from '../../assets/img/Atl/competencia.webp'
-import ConsumerLooker from '../../assets/img/Atl/consumerlook.webp'
+import Container from "react-bootstrap/Container";
+import { Row, Col } from "react-bootstrap";
+import FlashReport from "../../assets/img/Atl/flashreport.webp";
+import ReporteCompe from "../../assets/img/Atl/competencia.webp";
+import ConsumerLooker from "../../assets/img/Atl/consumerlook.webp";
 
-
-
-
-
-function SolucionesAtl(){
-    return(
-
-    <Container fluid className='Section_Atl' >
+function SolucionesAtl() {
+  return (
+    <Container fluid className="Section_Atl">
       <Row>
-          <Col>
-          <div className='title_odd_enfoque'>
-		    <h1>  <span className='bullet_dev'>•</span> Soluciones <span className='bullet_dev'>•</span></h1>
-            </div>
+        <Col>
+          <div className="title_odd_enfoque">
+            <h1>
+              {" "}
+              <span className="bullet_dev">•</span> Soluciones{" "}
+              <span className="bullet_dev">•</span>
+            </h1>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <p>Conoce las diferentes soluciones que colocamos a tu disposición</p>
+      </Row>
+
+      <div className="desktop">
+        <Row lg={6} className=" Cnt_solutions">
+          <Col></Col>
+          <Col xs={4} md={12}>
+            <img src={FlashReport} alt="Circulo" />
           </Col>
-      </Row>
-      <Row>
-        <p>
-        Conoce las diferentes soluciones 
-        que colocamos a tu disposición 
-        </p>
-      </Row>
+          <Col xs={4} md={12}>
+            <img src={ReporteCompe} alt="Circulo" />
+          </Col>
+          <Col xs={4} md={12}>
+            <img src={ConsumerLooker} alt="Circulo" />
+          </Col>
+          <Col></Col>
+        </Row>
+      </div>
 
-    <Row lg={6} className=' Cnt_solutions' >
-        <Col>
-        
-        </ Col>
-        <Col>
-        <img src={FlashReport} alt="Circulo" />
-        </ Col>
-        <Col>
-        <img src={ReporteCompe} alt="Circulo" />
-        </ Col>
-        <Col>
-        <img src={ConsumerLooker} alt="Circulo" />
-        </ Col>
-        <Col>
-        
-        </ Col>
-    </Row>
-
-    
-
-    
-      </Container>
-
-
-
-
-
-
-    );
+      <div className="mobile">
+        <Row className=" Cnt_solutions">
+          <Col xs={6} md={12}>
+            <img src={FlashReport} alt="Circulo" />
+          </Col>
+          <Col xs={6} md={12}>
+            <img src={ReporteCompe} alt="Circulo" />
+          </Col>
+          <Col xs={6} md={12}>
+            <img src={ConsumerLooker} alt="Circulo" />
+          </Col>
+        </Row>
+      </div>
+    </Container>
+  );
 }
 
 export default SolucionesAtl;

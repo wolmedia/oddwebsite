@@ -5,7 +5,7 @@ import SolucionesSeo from '../Seo/SolucionesSeo';
 import Footer from '../home/footer'
 import Dsection2 from '../Development/Dsection2';
 import SliderDev from '../Development/Sliderdev';
-import Copy from '../../components/home/copy'
+import Copy from '../home/copy'
 
 
 

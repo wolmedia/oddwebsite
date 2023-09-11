@@ -33,46 +33,46 @@ function Solucionesdev(){
       </Row>
 
     <Row lg={6} className=' Cnt_solutions' >
-        <Col>
+        <Col xs={4} md={12}>
         <img src={Crm} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12}>
         <img src={Website} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12} className='mtt-5'>
         <img src={Landing} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12} className='mtt-5'>
         <img src={Ecommerce} alt="Circulo" />
         </ Col>
     </Row>
 
     <Row lg={6} className=' Cnt_solutions' >
-        <Col>
+        <Col xs={4} md={12}>
         <img src={ML} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12}>
         <img src={Ar} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12} className='mtt-5'>
         <img src={Webmaster} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12} className='mtt-5'>
         <img src={Apps} alt="Circulo" />
         </ Col>
     </Row>
 
     <Row lg={6} className=' Cnt_solutions' >
-        <Col>
+        <Col xs={4} md={12}>
         <img src={Chatbot} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12}>
         <img src={IA} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12} className='mtt-5 mbb-5'>
         <img src={Vr} alt="Circulo" />
         </ Col>
-        <Col>
+        <Col xs={4} md={12} className='mtt-5 mbb-5'>
         <img src={Minijuegos} alt="Circulo" />
         </ Col>
     </Row>
