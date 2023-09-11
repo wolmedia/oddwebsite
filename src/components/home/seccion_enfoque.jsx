@@ -10,7 +10,7 @@ import Circ from '../../assets/img/Gif/circ.gif'
 function Enfoque (){
     return(
 
-        <Container  className='section_enfoque bg_enfoque'>
+        <Container  className='section_enfoque bg_enfoque' id="enfoque">
          <Row className='sphera'>
          <img src={Circ} alt="Circulo" />
           </Row> 

@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 
 function Experiencia() {
   return (
-    <Container fluid className="section_experiencia bg_experiencia">
+    <Container fluid className="section_experiencia bg_experiencia" id="exp">
       <Row className="taggin"></Row>
       <Row className="desktop">
         <Col>

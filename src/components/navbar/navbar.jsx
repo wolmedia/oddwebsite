@@ -17,10 +17,10 @@ function Navbar() {
 
         <ul className="navbar-links">
           <li>
-            <a href="/">Quienes somos</a>
+            <a href="#enfoque">Quienes somos</a>
           </li>
           <li>
-            <a href="/">Experiencia</a>
+            <a href="#exp">Experiencia</a>
           </li>
           {/* <li><a href="/Development">Soluciones</a>
         
@@ -39,7 +39,7 @@ function Navbar() {
             <NavDropdown.Item href="/informatica">ti</NavDropdown.Item>
           </NavDropdown>
           <li>
-            <a href="/">Contactos</a>
+            <a href="#contact">Contactos</a>
           </li>
         </ul>
 
@@ -59,8 +59,8 @@ function Navbar() {
           <NavbarGeneral.Toggle aria-controls="responsive-navbar-nav" />
           <NavbarGeneral.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="#features">Quienes Somos</Nav.Link>
-              <Nav.Link href="#pricing">Experiencia</Nav.Link>
+              <Nav.Link href="#enfoque">Quienes Somos</Nav.Link>
+              <Nav.Link href="#exp">Experiencia</Nav.Link>
               <NavDropdown
                 title="Soluciones"
                 id="collasible-nav-dropdown"

@@ -31,7 +31,7 @@ const sendEmail = (e) => {
 function Contacto (){
     return(
 
-        <Container fluid className='section_contact bg_contact'>
+        <Container fluid className='section_contact bg_contact' id="contact">
        
        <Row>
          <Col>
