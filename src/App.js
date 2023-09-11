@@ -11,8 +11,7 @@ import './assets/scss/style.scss';
 import Layout from "./components/Layout";
 import Inicio from './components/pages/Inicio';
 import Development from './components/pages/development';
-import Seo from './components/pages/S<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.63 248.5"/>eo';
+import Seo from './components/pages/Seo';
 import Tagging from './components/pages/tagging';
 import Atl from './components/pages/atl';
 import Ddigital from './components/pages/Ddigital';
