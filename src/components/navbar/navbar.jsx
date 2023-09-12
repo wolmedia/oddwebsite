@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import NavbarGeneral from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import {  Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -26,20 +27,29 @@ function Navbar() {
         
         </li> */}
           <NavDropdown title="soluciones" className="navbar-language">
-            <NavDropdown.Item href="/development">
-              {" "}
-              development
+            <NavDropdown.Item >
+            <Link to="/development">Development</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/seo">seo</NavDropdown.Item>
-            <NavDropdown.Item href="/tagging">tagging</NavDropdown.Item>
-            <NavDropdown.Item href="/atl">atl</NavDropdown.Item>
+            <NavDropdown.Item>
+            <Link to="/seo">Seo</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item >
+            <Link to="/tagging">Tagging</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item >
+            <Link to="/atl">ATL</Link>
+            </NavDropdown.Item>
             <NavDropdown.Item href="/data-digital">
-              data digital
+            <Link to="/data-digital">data digital</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/informatica">ti</NavDropdown.Item>
+            <NavDropdown.Item >
+            <Link to="/informatica">TI</Link>
+            </NavDropdown.Item>
           </NavDropdown>
           <li>
-            <a href="#contact">Contactos</a>
+            
+            <Link to="#contact">Contacto</Link>
+            
           </li>
         </ul>
 

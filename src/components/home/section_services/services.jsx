@@ -13,6 +13,8 @@ import imagen5 from "../../../assets/img/figure/digital_black.png";
 import imagen6 from "../../../assets/img/figure/atl_black.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+import {  Link } from "react-router-dom";
+
 
 const Services = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,7 +26,7 @@ const Services = () => {
       title: "DEVELOPMENT",
       paragraph:
         "Creamos soluciones tecnológicas a la medida, con amplia gama de soluciones, responsives sitios web con integraciones a e-comerce hasta implementando inteligencia artificial para impulsar negocios a niveles superiores adaptando soluciones integrales con CRM customizado.",
-      link: "/Development",
+      link: "/development",
       look: "style1",
     },
     {
@@ -34,7 +36,7 @@ const Services = () => {
       title: "SEO",
       paragraph:
         "Nuestra estrategia de SEO nos permite alcanzar alto posicionamiento web en los motores de búsqueda, revelando mayor visibilidad y atrayendo a publco objetivo.",
-      link: "https://ejemplo.com",
+      link: "/seo",
       look: "style2",
     },
     {
@@ -44,7 +46,7 @@ const Services = () => {
       title: "TAGGING",
       paragraph:
         " Optimizamos la presencia on-line, desde palabras clave hasta tráfico, para mejorar el rendimiento de tu sitio web y aumentar tu visibilidad.",
-      link: "https://ejemplo.com",
+      link: "/tagging",
       look: "style3",
     },
     {
@@ -54,7 +56,7 @@ const Services = () => {
       title: "IT",
       paragraph:
         "Brindamos soluciones con alcance para implementación de servidores, bases de datos, seguridad y asesoría de TI para potenciar negocios en la era digital.",
-      link: "https://ejemplo.com",
+      link: "/informatica",
       look: "style4",
     },
     {
@@ -64,7 +66,7 @@ const Services = () => {
       title: "REPORTING DIGITAL",
       paragraph:
         "Analizamos y aprovechamos los datos digitales para mejorar conversiones, métricas y resultados en campañas, impulsando el crecimiento de marcas y activos digitales.",
-      link: "https://ejemplo.com",
+      link: "/data-digital",
       look: "style5",
     },
     {
@@ -74,7 +76,7 @@ const Services = () => {
       title: "REPORTING ATL",
       paragraph:
         "Convertimos información compleja en informes clara, versatil y comprensible, brindando una visión completa de medios y competencia de marca.",
-      link: "https://ejemplo.com",
+      link: "/atl",
       look: "style6",
     },
   ];
@@ -104,7 +106,7 @@ const Services = () => {
                     <img src={card.image} alt={card.title} />
                     <h2>{card.title}</h2>
                     <p>{card.paragraph}</p>
-                    <a href={card.link}>Más información</a>
+                    <Link to={card.link}>Más información Link</Link> 
                   </div>
                 ))}
               </div>

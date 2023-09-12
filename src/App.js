@@ -22,21 +22,22 @@ import Informatica from './components/pages/informatica';
 
 function root() {
   return (
-    <Layout>
     <BrowserRouter basename="/">
+    <Layout>
+    
 
     <Routes>
-    <Route path="/informatica" Component={Informatica} />
-    <Route path="/data-digital" Component={Ddigital} />
-    <Route path="/atl" Component={Atl} />
-    <Route path="/tagging" Component={Tagging} />
-    <Route path="/Seo" Component={Seo} />
-    <Route path="/Development" Component={Development} />
-    <Route path="/" Component={Inicio} />
-    <Route Component={Informatica} />
+    <Route path="/informatica" element={<Informatica />} />
+    <Route path="/data-digital" element={<Ddigital />} />
+    <Route path="/atl" element={<Atl />} />
+    <Route path="/tagging" element={<Tagging />} />
+    <Route path="/seo" element={<Seo />} />
+    <Route path="/development" element={<Development />} />
+    <Route path="/" element={<Inicio />} />
     </Routes>
-   </BrowserRouter>
+   
     </Layout>
+    </BrowserRouter>
   );
 }
 
