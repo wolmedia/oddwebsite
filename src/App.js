@@ -33,6 +33,7 @@ function root() {
     <Route path="/Seo" Component={Seo} />
     <Route path="/Development" Component={Development} />
     <Route path="/" Component={Inicio} />
+    <Route Component={Informatica} />
     </Routes>
    </BrowserRouter>
     </Layout>

@@ -80,24 +80,22 @@ const Services = () => {
   ];
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? data.length - 1 : prevIndex - 1
-    );
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? data.length - 1 : prevIndex - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === data.length - 1 ? prevIndex : prevIndex + 1
-    );
+    setCurrentIndex((prevIndex) => (prevIndex === data.length - 1 ? 0 : prevIndex + 1));
   };
 
-  const visibleCards = data.slice(currentIndex, currentIndex + 3);
-  const showNextButton = currentIndex < data.length - 0;
+  const duplicatedData = [...data, ...data, ...data];
+  const visibleCards = duplicatedData.slice(currentIndex, currentIndex + 3);
+
+
 
   return (
     <>
       <Container className="desktop">
-        <Row className="justify-content">
+      <Row className="justify-content">
           <div className="carousel_solutions ">
             <Col>
               <div className="card-container">
@@ -113,18 +111,16 @@ const Services = () => {
             </Col>
             <div className="navigation">
               <Col>
-                <button onClick={handlePrev} disabled={currentIndex === 0}>
+                <button onClick={handlePrev}>
                   <p className="Prev"></p>
                 </button>
               </Col>
 
-              {showNextButton && (
-                <Col>
-                  <button onClick={handleNext}>
-                    <p className="Next"></p>
-                  </button>
-                </Col>
-              )}
+              <Col>
+                <button onClick={handleNext}>
+                  <p className="Next"></p>
+                </button>
+              </Col>
             </div>
           </div>
         </Row>
