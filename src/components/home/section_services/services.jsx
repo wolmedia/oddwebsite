@@ -135,7 +135,7 @@ const Services = () => {
           {data.map((card) => (
             <Carousel.Item className={"mobile-gif"+card.id}>
               <div className="text-center">
-                <img className={"image-mobile-principal"+" "+"mobile-gif"+card.id} src={card.gif} alt="" />
+                <img className={"image-mobile-principal"+" "+"mobile-gif"+card.id} src={card.gif} alt="gif" />
                 <h2 className="title-mobile-principal">{card.title}</h2>
                 <p className="paragraph-mobile-principal">{card.paragraph}</p>
                 <button className="button-mobile-principal">Más información</button>
