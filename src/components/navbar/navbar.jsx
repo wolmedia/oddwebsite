@@ -39,7 +39,7 @@ function Navbar() {
             <NavDropdown.Item >
             <Link to="/atl">ATL</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/data-digital">
+            <NavDropdown.Item >
             <Link to="/data-digital">data digital</Link>
             </NavDropdown.Item>
             <NavDropdown.Item >
@@ -76,16 +76,24 @@ function Navbar() {
                 id="collasible-nav-dropdown"
                 className="navbar-language"
               >
-                <NavDropdown.Item href="/development">
-                  development
+                <NavDropdown.Item >
+                <Link to="/development">Development</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/seo">seo</NavDropdown.Item>
-                <NavDropdown.Item href="/tagging">tagging</NavDropdown.Item>
-                <NavDropdown.Item href="/atl">atl</NavDropdown.Item>
-                <NavDropdown.Item href="/data-digital">
-                  data digital
+                <NavDropdown.Item>
+                <Link to="/seo">Seo</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/informatica">ti</NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to="/tagging">Tagging</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to="/atl">ATL</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to="/data-digital">data digital</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to="/informatica">TI</Link>
+                </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#contact">Contacto</Nav.Link>
             </Nav>
