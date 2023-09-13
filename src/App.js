@@ -16,17 +16,20 @@ import Tagging from './components/pages/tagging';
 import Atl from './components/pages/atl';
 import Ddigital from './components/pages/Ddigital';
 import Informatica from './components/pages/informatica';
+import ScrollToTop from "./ScrollToTop";
 
 
 
 
 function root() {
   return (
+    
     <BrowserRouter basename="/">
     <Layout>
     
-
+    <ScrollToTop />
     <Routes>
+    
     <Route path="/informatica" element={<Informatica />} />
     <Route path="/data-digital" element={<Ddigital />} />
     <Route path="/atl" element={<Atl />} />
