@@ -106,7 +106,7 @@ const Services = () => {
                     <img src={card.image} alt={card.title} />
                     <h2>{card.title}</h2>
                     <p>{card.paragraph}</p>
-                    <Link to={card.link}>Más información Link</Link> 
+                    <Link to={card.link}><p className="txt_button">Más información </p></Link> 
                   </div>
                 ))}
               </div>
@@ -136,7 +136,7 @@ const Services = () => {
                 <img className={"image-mobile-principal"+" "+"mobile-gif"+card.id} src={card.gif} alt="gif" />
                 <h2 className="title-mobile-principal">{card.title}</h2>
                 <p className="paragraph-mobile-principal">{card.paragraph}</p>
-                <button className="button-mobile-principal">Más información</button>
+                <Link to={card.link}>Más información</Link> 
               </div>
             </Carousel.Item>
           ))}
